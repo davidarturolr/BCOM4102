@@ -1,0 +1,162 @@
+Script started on Fri 29 Jan 2021 07:49:15 PM -05
+]0;bcom4102@magnus:~[?1034h[bcom4102@magnus ~]$ md[Kki[Kdir patiño_leon_diaz
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ ls
+[0m[01;34mAbril_Peña[0m        [01;34mbin[0m             [01;34mDatasets[0m  [01;34mMantilla_Hoyos[0m    Resultados_taller_1_camacho_rincon.txt    [01;34msanchez_jaramillo[0m
+[01;34mbautista_zuluaga[0m  [01;34mcamacho_rincon[0m  [01;34mLcamelo[0m   [01;34mpatiño_leon_diaz[0m  Resultados_taller_1_patiño_leon_diaz.txt  typescript
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ cd [K[K[Kcd patiño_leon_diaz/
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ cdp [K[K[K[Kcp Datasets/protein.fa 
+cp: missing destination file operand after ‘Datasets/protein.fa’
+Try 'cp --help' for more information.
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ cd ..
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ cd ..p Datasets/protein.fa patiño_leon_diaz/
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ cd patiño_leon_diaz/
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ ls
+protein.fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ c[Kmv protein.fa protein-patiño_leon_[K[K[K[K[K[K[K[K[K[K[K[K[patiño_leon_diaz].fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ ls
+protein-[patiño_leon_diaz].fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ who
+biol2205 pts/0        2021-01-29 18:35 (dynamic-186-29-86-153.dynamic.etb.net.co)
+ha.amaya pts/2        2021-01-21 10:23 (gibbs.uniandes.edu.co)
+biol2205 pts/4        2021-01-29 17:29 (181.51.34.183)
+biol2205 pts/6        2021-01-29 15:45 (186.112.21.121)
+ji.diaz1 pts/7        2021-01-29 12:51 (dynamic-201-244-116-211.dynamic.etb.net.co)
+ha.amaya pts/8        2021-01-20 21:55 (gibbs.uniandes.edu.co)
+fp.mendez10 pts/9        2021-01-23 18:44 (fisi-420000495.uniandes.edu.co)
+biol2205 pts/10       2021-01-29 18:15 (186.84.20.27)
+biol2205 pts/11       2021-01-29 17:52 (186.84.20.27)
+ji.diaz1 pts/12       2021-01-29 12:48 (dynamic-201-244-116-211.dynamic.etb.net.co)
+biol2205 pts/13       2021-01-29 19:08 (dynamic-190-25-40-97.dynamic.etb.net.co)
+da.martinez33 pts/14       2021-01-29 10:16 (dynamic-186-154-138-54.dynamic.etb.net.co)
+lc.camelo10 pts/15       2021-01-29 11:01 (167.0.170.11)
+biol2205 pts/16       2021-01-29 17:56 (186.85.198.14)
+biol2205 pts/17       2021-01-29 11:05 (dynamic-186-154-97-200.dynamic.etb.net.co)
+ha.amaya pts/18       2021-01-21 16:44 (gibbs.uniandes.edu.co)
+biol2205 pts/20       2021-01-29 18:05 (181.51.34.183)
+bcom4102 pts/21       2021-01-29 19:49
+biol2205 pts/22       2021-01-29 19:34 (dynamic-186-29-86-153.dynamic.etb.net.co)
+biol2205 pts/23       2021-01-29 19:21 (181.51.34.183)
+fisi.sisco pts/24       2021-01-29 10:39 (186.83.0.29)
+bcom4002 pts/26       2021-01-29 14:11 (190.15.5.115)
+bcom4102 pts/29       2021-01-29 18:00 (190.130.76.229)
+ci.molina pts/30       2021-01-28 14:54 (uniandes-precision-3630-tower.uniandes.edu.co)
+biol2205 pts/31       2021-01-29 18:56 (181.131.53.152)
+biol2205 pts/32       2021-01-29 19:21 (dynamic-190-25-68-198.dynamic.etb.net.co)
+bcom4002 pts/33       2021-01-29 14:37 (186.84.89.46)
+biol2205 pts/35       2021-01-29 16:57 (181.131.53.152)
+ci.molina pts/36       2021-01-29 11:18 (186.85.157.203)
+d.lozanoa pts/39       2021-01-29 12:03 (dynamic-186-29-237-186.dynamic.etb.net.co)
+d.lozanoa pts/40       2021-01-29 12:09 (dynamic-186-29-237-186.dynamic.etb.net.co)
+bcom4002 pts/41       2021-01-29 14:42 (dynamic-186-30-120-131.dynamic.etb.net.co)
+ln.gonzalez138 pts/42       2021-01-29 14:44 (dynamic-186-30-120-131.dynamic.etb.net.co)
+biol2205 pts/45       2021-01-29 18:28 (dynamic-186-29-86-153.dynamic.etb.net.co)
+biol2205 pts/46       2021-01-29 14:56 (186.114.244.125)
+biol2205 pts/47       2021-01-29 18:29 (67.73.246.219)
+biol2205 pts/48       2021-01-29 18:41 (dynamic-186-29-86-153.dynamic.etb.net.co)
+biol2205 pts/51       2021-01-29 15:49
+ci.molina pts/55       2021-01-29 15:53 (186.85.157.203)
+fp.mendez10 pts/60       2021-01-29 16:14 (fisi-420000495.uniandes.edu.co)
+c.moreno pts/64       2021-01-29 16:31 (157.253.92.72)
+dm.motta pts/65       2021-01-28 19:13 (186.86.52.149)
+bcom4102 pts/67       2021-01-29 16:52 (dynamic-186-155-12-125.dynamic.etb.net.co)
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ pwd
+/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ cd ,[K..
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ which bash
+/usr/bin/bash
+]0;bcom4102@magnus:~[bcom4102@magnus ~]$ cd patiño_leon_diaz/
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nao [K[Kno Comm[Kando1-patiño:[K_leon:[K_diaz.txt
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                       File: Comando1-patiño_leon_diaz.txt                                                    [31;58H[ New File ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[1;117H(B[0;7mModified[3d(B[m#!/bin/bash[5dDIA=`date +"%d/%m/%Y"`[6dHORA=`date +"%H:%M"`[8decho "Hoy es el $DIA y la hora actual es $HORA!"[9dsleep 2m[10decho "Hoy es el $DIA y la hora actual es $HORA!"[12dexit[31d[K[12;5H[31d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                  [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [33;17H(B[0;7m^C(B[m Cancel[K[31;62H(B[0;7mFile Name to Write: Comando1-patiño_leon_diaz.txt           [32d^G(B[m Get Help[32;32H(B[0;7mM-D(B[m DOS Format[32;63H(B[0;7mM-A(B[m Append[32;94H(B[0;7mM-B(B[m Backup File[33d(B[0;7m^C(B[m Cancel	         [32G(B[0;7mM-M(B[m Mac Format[33;63H(B[0;7mM-P(B[m Prepend[31;50H[32d[39;49m(B[m[J[1;117H(B[0;7m        [31;54H(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano Comando1-patiño_leon_diaz.txt[1P-patiño_leon_diaz.txt2-patiño_leon_diaz.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                       File: Comando2-patiño_leon_diaz.txt                                                    [31;58H[ New File ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[1;117H(B[0;7mModified[3d(B[m#!/bin/bash[6dDIA=`date +"%d/%m/%Y"`[7dHORA=`date +"%H:%M"`[9decho "Hoy es el $DIA y la hora actual es $HORA!"[10dsleep 15m[11decho "Hoy es el $DIA y la hora actual es $HORA!"[13dexit[31d[K[18d[31d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                  [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [33;17H(B[0;7m^C(B[m Cancel[K[31;62H(B[0;7mFile Name to Write: Comando2-patiño_leon_diaz.txt           [32d^G(B[m Get Help[32;32H(B[0;7mM-D(B[m DOS Format[32;63H(B[0;7mM-A(B[m Append[32;94H(B[0;7mM-B(B[m Backup File[33d(B[0;7m^C(B[m Cancel	         [32G(B[0;7mM-M(B[m Mac Format[33;63H(B[0;7mM-P(B[m Prepend[31;50H[32d[39;49m(B[m[J[1;117H(B[0;7m        [31;54H(B[m[1K (B[0;7m[ Wrote 16 lines ](B[m[K[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ cat com[K[K[K[KC[K c[KComando1-patiño_leon_diaz.txt 
+#!/bin/bash
+
+DIA=`date +"%d/%m/%Y"`
+HORA=`date +"%H:%M"`
+
+echo "Hoy es el $DIA y la hora actual es $HORA!"
+sleep 2m
+echo "Hoy es el $DIA y la hora actual es $HORA!"
+
+exit
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ cat Comando1-patiño_leon_diaz.txt nano Comando2-patiño_leon_diaz.txtcat Comando1-patiño_leon_diaz.txt [1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -l
+total 16576
+-rw-r--r-- 1 bcom4102 biologia      171 Jan 29 19:54 Comando1-patiño_leon_diaz.txt
+-rw-r--r-- 1 bcom4102 biologia      178 Jan 29 19:55 Comando2-patiño_leon_diaz.txt
+-rw-r--r-- 1 bcom4102 biologia 16965308 Jan 29 19:50 protein-[patiño_leon_diaz].fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ ls -lcat Comando1-patiño_leon_diaz.txt [C[C[1P[1@2
+#!/bin/bash
+
+
+DIA=`date +"%d/%m/%Y"`
+HORA=`date +"%H:%M"`
+
+echo "Hoy es el $DIA y la hora actual es $HORA!"
+sleep 15m
+echo "Hoy es el $DIA y la hora actual es $HORA!"
+
+exit
+
+
+
+
+
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ chmod 744 Comando1-patiño_leon_diaz.txt 
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ chmod 744 Comando1-patiño_leon_diaz.txt [C[1P[1@2
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ ls -l
+total 16576
+-rwxr--r-- 1 bcom4102 biologia      171 Jan 29 19:54 [0m[01;32mComando1-patiño_leon_diaz.txt[0m
+-rwxr--r-- 1 bcom4102 biologia      178 Jan 29 19:55 [01;32mComando2-patiño_leon_diaz.txt[0m
+-rw-r--r-- 1 bcom4102 biologia 16965308 Jan 29 19:50 protein-[patiño_leon_diaz].fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ bash Comando1-patiño_leon_diaz.txt 
+Hoy es el 29/01/2021 y la hora actual es 19:57!
+^Z
+[1]+  Stopped                 bash Comando1-patiño_leon_diaz.txt
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ bash Comando1-patiño_leon_diaz.txt [C[Kjobs
+[1]+  Stopped                 bash Comando1-patiño_leon_diaz.txt
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ fg
+bash Comando1-patiño_leon_diaz.txt
+Hoy es el 29/01/2021 y la hora actual es 19:57!
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ fgjobsbash Comando1-patiño_leon_diaz.txt [1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&
+[1] 27531
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ Hoy es el 29/01/2021 y la hora actual es 19:59!
+^C
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ jobs[Ks
+[1]+  Running                 bash Comando2-patiño_leon_diaz.txt &
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ kill 27531
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ jos[Kbs
+[1]+  Terminated              bash Comando2-patiño_leon_diaz.txt
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ wc -l Comando[K[K[K[K[K[K[Kprotein-\[patiño_leon_diaz\].fa 
+238547 protein-[patiño_leon_diaz].fa
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ grep -c ">gi" protein-\[patiño_leon_diaz\].fa 
+21772
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ grep -c ">gi" protein-\[patiño_leon_diaz\].fa [C[1P[1P[1P[Knano protein-\[patiño_leon_diaz\].fa 
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                       File: protein-[patiño_leon_diaz].fa                                                    [3;1H(B[m>gi|328776094|ref|XP_001122629.2| PREDICTED: protein cortex isoform X1 [Apis mellifera][4dMRRRIVLNFRNSEDQASENIDTTPLRRSTVAFPRLRLLHKDFKSDKDSQKPVVANYQVTVAKSVQQIVKK[5dYTPKAPKKTYYEDRFIKFNYNLEAANYLLKKRNENQLHRDEIDVFKQVDSLHTKWQRKFMHQLMVKENVI[6dPGVRQKQVLRGNHLSTENKLPGNLAGRPRELWDEDQFEDGMWKSRPRKRPLIGIIDSILDMPGFQTSPRP[7dTLPTQGRLVDWGSRNIIAAAVHDIVMLYNGQNASDNTELENVEISNISALKWNHAGTKLAICTKSSRVNL[8dYCVNSQKVIWTSPCCGKNYLPLCYSRCICWPQDDRYVITGCVGVITVHSVENGKVVQYNHAHVSEILLLE[9dFSSNYRYIASASHHSLDRNIRIFLWPYLIPYVDIDYCEPVLALAWHPYESGHLCIGGGYGNASLSLWNVN[10dTLVPEGYRNVYFHGAVKNLAWNKRSAELVVNWSYFVQQAECTLMPVLGSLDRVVDMIMVDKDLQVNSIMW[11dNPDHTQLAVQYYLEDIFIFDILNNFR[12d>gi|571499213|ref|XP_006557411.1| PREDICTED: protein cortex isoform X2 [Apis mellifera][13dMDKDSQKPVVANYQVTVAKSVQQIVKKYTPKAPKKTYYEDRFIKFNYNLEAANYLLKKRNENQLHRDEID[14dVFKQVDSLHTKWQRKFMHQLMVKENVIPGVRQKQVLRGNHLSTENKLPGNLAGRPRELWDEDQFEDGMWK[15dSRPRKRPLIGIIDSILDMPGFQTSPRPTLPTQGRLVDWGSRNIIAAAVHDIVMLYNGQNASDNTELENVE[16dISNISALKWNHAGTKLAICTKSSRVNLYCVNSQKVIWTSPCCGKNYLPLCYSRCICWPQDDRYVITGCVG[17dVITVHSVENGKVVQYNHAHVSEILLLEFSSNYRYIASASHHSLDRNIRIFLWPYLIPYVDIDYCEPVLAL[18dAWHPYESGHLCIGGGYGNASLSLWNVNTLVPEGYRNVYFHGAVKNLAWNKRSAELVVNWSYFVQQAECTL[19dMPVLGSLDRVVDMIMVDKDLQVNSIMWNPDHTQLAVQYYLEDIFIFDILNNFR[20d>gi|571499216|ref|XP_006557412.1| PREDICTED: protein cortex isoform X3 [Apis mellifera][21dMHQLMVKENVIPGVRQKQVLRGNHLSTENKLPGNLAGRPRELWDEDQFEDGMWKSRPRKRPLIGIIDSIL[22dDMPGFQTSPRPTLPTQGRLVDWGSRNIIAAAVHDIVMLYNGQNASDNTELENVEISNISALKWNHAGTKL[23dAICTKSSRVNLYCVNSQKVIWTSPCCGKNYLPLCYSRCICWPQDDRYVITGCVGVITVHSVENGKVVQYN[24dHAHVSEILLLEFSSNYRYIASASHHSLDRNIRIFLWPYLIPYVDIDYCEPVLALAWHPYESGHLCIGGGY[25dGNASLSLWNVNTLVPEGYRNVYFHGAVKNLAWNKRSAELVVNWSYFVQQAECTLMPVLGSLDRVVDMIMV[26dDKDLQVNSIMWNPDHTQLAVQYYLEDIFIFDILNNFR[27d>gi|328776032|ref|XP_392167.3| PREDICTED: poly(A)-specific ribonuclease PARN-like isoform X3 [Apis mellifera][28dMEVTSSNFQEVLVELDEILKNATFLCIDGEFTGLNSGPDGGVFDTPAQYYAKLRTGSMDFLLIQFGLSVF[29dTFNKEMQKYNQRSYNFYVFPRPLNRMAPDCRFMCQTSSISFLASQGFDFNKLFKLGIPYLTTNEEEKLMK[30dRLEEKQRIRDEGTEILPISDVERPQIEEICSRIDEFVTSETEELLIEKCNAFIRRLVYQEVKLRWPNKLK[31;53H(B[0;7m[ Read 238547 lines ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[32d[J[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano protein-\[patiño_leon_diaz\].fa [6@grep -c ""[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@B[1P[C[1@B[1@E[1@C[1@N[1@1[1@-[1@r[1@e[1@g[1@u[1@l[1@t[1@a[1@t[1@e[1@d[1P[1P[1P[1P[1P[1@a[1@t[1@e[1@d[1@ [1@a[1@u[1@t[1@o[1@p[1@h[1@a[1@g[1@y
+5
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ grep -c "BECN1-regulated autophagy" protein-\[patiño_leon_diaz\].fa [C[1P[1@n
+[32m[K134265[m[K[36m[K:[m[K>gi|571546172|ref|XP_006568572.1| PREDICTED: activating molecule in [01;31m[KBECN1-regulated autophagy[m[K protein 1-like isoform X2 [Apis mellifera]
+[32m[K134274[m[K[36m[K:[m[K>gi|571546176|ref|XP_006568573.1| PREDICTED: activating molecule in [01;31m[KBECN1-regulated autophagy[m[K protein 1-like isoform X3 [Apis mellifera]
+[32m[K134283[m[K[36m[K:[m[K>gi|571546180|ref|XP_006568574.1| PREDICTED: activating molecule in [01;31m[KBECN1-regulated autophagy[m[K protein 1-like isoform X4 [Apis mellifera]
+[32m[K134292[m[K[36m[K:[m[K>gi|571546184|ref|XP_006568575.1| PREDICTED: activating molecule in [01;31m[KBECN1-regulated autophagy[m[K protein 1-like isoform X5 [Apis mellifera]
+[32m[K134301[m[K[36m[K:[m[K>gi|328789197|ref|XP_001123340.2| PREDICTED: activating molecule in [01;31m[KBECN1-regulated autophagy[m[K protein 1-like isoform X1 [Apis mellifera]
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano Comando1-patiño_leon_diaz.txt 
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                       File: Comando1-patiño_leon_diaz.txt                                                    [3;1H(B[m#!/bin/bash[5dDIA=`date +"%d/%m/%Y"`[6dHORA=`date +"%H:%M"`[8decho "Hoy es el $DIA y la hora actual es $HORA!"[9dsleep 2m[10decho "Hoy es el $DIA y la hora actual es $HORA!"[12dexit[31;55H(B[0;7m[ Read 10 lines ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[4d[1;117H(B[0;7mModified[4d(B[msbatch     [KSBATCH     [K#[31d[K[4d#A SBAS TCH	--mem= 2g[Z [Z 2g[31d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                  [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [33;17H(B[0;7m^C(B[m Cancel[K[31;62H(B[0;7mFile Name to Write: Comando1-patiño_leon_diaz.txt           [32d^G(B[m Get Help[32;32H(B[0;7mM-D(B[m DOS Format[32;63H(B[0;7mM-A(B[m Append[32;94H(B[0;7mM-B(B[m Backup File[33d(B[0;7m^C(B[m Cancel	         [32G(B[0;7mM-M(B[m Mac Format[33;63H(B[0;7mM-P(B[m Prepend[31;50H[32d[39;49m(B[m[J[1;117H(B[0;7m        [31;54H(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano Comando1-patiño_leon_diaz.txt [1P[1@2
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                       File: Comando2-patiño_leon_diaz.txt                                                    [3;1H(B[m#!/bin/bash[6dDIA=`date +"%d/%m/%Y"`[7dHORA=`date +"%H:%M"`[9decho "Hoy es el $DIA y la hora actual es $HORA!"[10dsleep 15m[11decho "Hoy es el $DIA y la hora actual es $HORA!"[13dexit[31;55H(B[0;7m[ Read 16 lines ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d#[4d[1;117H(B[0;7mModified[4d(B[m#SBATCH	--mem=2g[31d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                  [32;1H Y(B[m Yes[K[33d(B[0;7m N(B[m No  [33;17H(B[0;7m^C(B[m Cancel[K[31;62H(B[0;7mFile Name to Write: Comando2-patiño_leon_diaz.txt           [32d^G(B[m Get Help[32;32H(B[0;7mM-D(B[m DOS Format[32;63H(B[0;7mM-A(B[m Append[32;94H(B[0;7mM-B(B[m Backup File[33d(B[0;7m^C(B[m Cancel	         [32G(B[0;7mM-M(B[m Mac Format[33;63H(B[0;7mM-P(B[m Prepend[31;50H[32d[39;49m(B[m[J[1;117H(B[0;7m        [31;54H(B[m[1K (B[0;7m[ Wrote 16 lines ](B[m[K[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ sabsh[K[K[K[K[Ksabtch[K[K[K[K[Kbatch Comando1-patiño_leon_diaz.txt 
+Submitted batch job 190053
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ sbatch Comando1-patiño_leon_diaz.txt [C[C[C[C[C[1P[1@2
+Submitted batch job 190054
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ squeue -u bcom4102
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            190054     short Comando2 bcom4102  R       0:09      1 node-25
+            190053     short Comando1 bcom4102  R       0:17      1 node-25
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ squeue -u bcom4102
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            190054     short Comando2 bcom4102  R       1:55      1 node-25
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ ls 
+[0m[01;32mComando1-patiño_leon_diaz.txt[0m  protein-[patiño_leon_diaz].fa  slurm-190054.out
+[01;32mComando2-patiño_leon_diaz.txt[0m  slurm-190053.out
+]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano slurm-19005
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                             File: slurm-19005                                                                [31;58H[ New File ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[32d[J[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ nano slurm-190053.out 
+[?1049h[1;33r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.3.1                           File: slurm-190053.out                                                             [3;1H(B[mHoy es el 29/01/2021 y la hora actual es 20:05![4dHoy es el 29/01/2021 y la hora actual es 20:05![31;56H(B[0;7m[ Read 2 lines ][32d^G(B[m Get Help[32;22H(B[0;7m^O(B[m WriteOut[32;43H(B[0;7m^R(B[m Read File[32;64H(B[0;7m^Y(B[m Prev Page[32;85H(B[0;7m^K(B[m Cut Text[32;106H(B[0;7m^C(B[m Cur Pos[33d(B[0;7m^X(B[m Exit[33;22H(B[0;7m^J(B[m Justify[33;43H(B[0;7m^W(B[m Where Is[33;64H(B[0;7m^V(B[m Next Page[33;85H(B[0;7m^U(B[m UnCut Text[33;106H(B[0;7m^T(B[m To Spell[3d[32d[J[33;126H[33;1H[?1049l[?1l>]0;bcom4102@magnus:~/patiño_leon_diaz[bcom4102@magnus patiño_leon_diaz]$ exit
+exit
+
+Script done on Fri 29 Jan 2021 08:08:23 PM -05
