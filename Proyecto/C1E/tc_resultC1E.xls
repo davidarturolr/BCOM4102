@@ -1,0 +1,17 @@
+organism_name	strain	accession	taxid	species_taxid	relation_to_type	validated	ani	matched_fragments	total_fragments
+Pseudomonas protegens	strain=CHA0	GCA_900560965.1	380021	380021	type	True	98.8151	2180	5788
+Pseudomonas protegens	strain=CHA0	GCA_000397205.1	380021	380021	type	True	98.8055	2176	5788
+Pseudomonas chlororaphis subsp. aureofaciens	strain=LMG 1245	GCA_001269575.1	587851	587753	type	True	86.7763	1622	5788
+Pseudomonas chlororaphis subsp. aureofaciens	strain=DSM 6698	GCA_003851905.1	587851	587753	type	True	86.718	1678	5788
+Pseudomonas chlororaphis subsp. aureofaciens	strain=NBRC 3521	GCA_000813225.1	587851	587753	type	True	86.6951	1663	5788
+Litchfieldia alkalitelluris	strain=DSM 16976	GCA_002019645.1	304268	304268	type	True	79.6134	55	5788
+Lysinibacillus sphaericus	strain=NCTC10338	GCA_900445465.1	1421	1421	suspected-type	True	79.2286	50	5788
+Bacillus cereus	strain=ATCC 14579	GCA_000007825.1	1396	1396	suspected-type	True	78.353	61	5788
+Paenibacillus donghaensis	strain=KCTC 13049	GCA_002192415.1	414771	414771	type	True	77.4132	83	5788
+Bacillus anthracis	strain=Vollum	GCA_000167275.1	1392	1392	type	True	77.3182	74	5788
+Paenibacillus catalpae	strain=CGMCC 1.10784	GCA_900112695.1	1045775	1045775	type	True	77.1067	103	5788
+Paenibacillus sinopodophylli	strain=CCTCC AB 2016047	GCA_005930355.1	1837342	1837342	type	True	77.0683	121	5788
+Paenibacillus prosopidis	strain=CECT 7506	GCA_003337375.1	630520	630520	type	True	76.8981	125	5788
+Paenibacillus silvae	strain=CGMCC 1.12770	GCA_014639235.1	1325358	1325358	type	True	76.8751	56	5788
+Paenibacillus pectinilyticus	strain=KCTC13222	GCA_001700435.1	512399	512399	type	True	76.6099	74	5788
+Bacillus paranthracis	strain=Mn5	GCA_001883995.1	2026186	2026186	type	True	75.4869	60	5788
