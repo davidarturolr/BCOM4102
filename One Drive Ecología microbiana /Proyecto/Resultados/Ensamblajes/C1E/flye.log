@@ -1,0 +1,1272 @@
+[2021-03-10 20:14:45] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-10 20:14:45] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados -g 11000000000 --plasmids --meta
+[2021-03-10 20:14:45] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-10 20:14:45] root: INFO: >>>STAGE: configure
+[2021-03-10 20:14:45] root: INFO: Configuring run
+[2021-03-10 20:19:12] root: INFO: Total read length: 12527765908
+[2021-03-10 20:19:12] root: INFO: Input genome size: 11000000000
+[2021-03-10 20:19:12] root: INFO: Estimated coverage: 1
+[2021-03-10 20:19:12] root: WARNING: Expected read coverage is 1, the assembly is not guaranteed to be optimal in this setting. Are you sure that the genome size was entered correctly?
+[2021-03-10 20:19:12] root: INFO: Reads N50/N90: 6608 / 4145
+[2021-03-10 20:19:12] root: INFO: Minimum overlap set to 3000
+[2021-03-10 20:19:12] root: INFO: >>>STAGE: assembly
+[2021-03-10 20:19:12] root: INFO: Assembling disjointigs
+[2021-03-10 20:19:12] root: DEBUG: -----Begin assembly log------
+[2021-03-10 20:19:12] root: DEBUG: Running: flye-modules assemble --reads C1E.hifi.fastq.gz --out-asm /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --meta --genome-size 11000000000 --min-ovlp 3000
+[2021-03-10 20:19:12] DEBUG: Build date: Sep  4 2020 20:48:13
+[2021-03-10 20:19:12] DEBUG: Total RAM: 188 Gb
+[2021-03-10 20:19:12] DEBUG: Available RAM: 164 Gb
+[2021-03-10 20:19:12] DEBUG: Total CPUs: 48
+[2021-03-10 20:19:12] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-10 20:19:12] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-10 20:19:12] DEBUG: 	big_genome_threshold=29000000
+[2021-03-10 20:19:12] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-10 20:19:12] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-10 20:19:12] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-10 20:19:12] DEBUG: 	chimera_window=100
+[2021-03-10 20:19:12] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-10 20:19:12] DEBUG: 	max_inner_reads=10
+[2021-03-10 20:19:12] DEBUG: 	max_inner_fraction=0.25
+[2021-03-10 20:19:12] DEBUG: 	max_separation=500
+[2021-03-10 20:19:12] DEBUG: 	unique_edge_length=50000
+[2021-03-10 20:19:12] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-10 20:19:12] DEBUG: 	out_paths_ratio=5
+[2021-03-10 20:19:12] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-10 20:19:12] DEBUG: 	coverage_estimate_window=100
+[2021-03-10 20:19:12] DEBUG: 	max_bubble_length=50000
+[2021-03-10 20:19:12] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-10 20:19:12] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-10 20:19:12] DEBUG: 	weak_detach_rate=5
+[2021-03-10 20:19:12] DEBUG: 	tip_coverage_rate=2
+[2021-03-10 20:19:12] DEBUG: 	tip_length_rate=2
+[2021-03-10 20:19:12] DEBUG: 	low_cutoff_warning=0
+[2021-03-10 20:19:12] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-10 20:19:12] DEBUG: 	kmer_size=17
+[2021-03-10 20:19:12] DEBUG: 	use_minimizers=1
+[2021-03-10 20:19:12] DEBUG: 	minimizer_window=10
+[2021-03-10 20:19:12] DEBUG: 	reads_base_alignment=1
+[2021-03-10 20:19:12] DEBUG: 	assemble_kmer_sample=2
+[2021-03-10 20:19:12] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-10 20:19:12] DEBUG: 	read_align_kmer_sample=2
+[2021-03-10 20:19:12] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-10 20:19:12] DEBUG: 	maximum_jump=1500
+[2021-03-10 20:19:12] DEBUG: 	maximum_overhang=500
+[2021-03-10 20:19:12] DEBUG: 	repeat_kmer_rate=100
+[2021-03-10 20:19:12] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-10 20:19:12] DEBUG: 	assemble_divergence_relative=0
+[2021-03-10 20:19:12] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-10 20:19:12] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-10 20:19:12] DEBUG: 	hpc_scoring_on=1
+[2021-03-10 20:19:12] DEBUG: 	add_unassembled_reads=0
+[2021-03-10 20:19:12] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-10 20:19:12] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-10 20:19:12] DEBUG: 	short_tip_length=10000
+[2021-03-10 20:19:12] DEBUG: 	long_tip_length=100000
+[2021-03-10 20:19:12] DEBUG: Running with k-mer size: 17
+[2021-03-10 20:19:12] DEBUG: Running with minimum overlap 3000
+[2021-03-10 20:19:12] DEBUG: Metagenome mode: Y
+[2021-03-10 20:19:12] INFO: Reading sequences
+[2021-03-10 20:22:11] DEBUG: Building positional index
+[2021-03-10 20:22:11] DEBUG: Total sequence: 12336498922 bp
+[2021-03-10 20:22:11] INFO: Building minimizer index
+[2021-03-10 20:22:12] INFO: Pre-calculating index storage
+[2021-03-10 20:40:18] DEBUG: Mean k-mer frequency: 83.337
+[2021-03-10 20:40:18] DEBUG: Repetitive k-mer frequency: 8333
+[2021-03-10 20:40:18] DEBUG: Filtered 4113681 repetitive k-mers (0.00183766)
+[2021-03-10 20:40:24] INFO: Filling index
+[2021-03-10 21:07:00] DEBUG: Sorting k-mer index
+[2021-03-10 21:07:38] DEBUG: Selected k-mers: 26861090
+[2021-03-10 21:07:38] DEBUG: K-mer index size: 2234427488
+[2021-03-10 21:07:38] DEBUG: Mean k-mer frequency: 83.1845
+[2021-03-10 21:07:38] DEBUG: Minimizer rate: 5.5211
+[2021-03-10 21:07:38] DEBUG: Peak RAM usage: 15 Gb
+[2021-03-10 21:07:38] DEBUG: Estimating k-mer identity bias
+[2021-03-10 21:16:33] DEBUG: Initial divergence estimate : 0.000175716
+[2021-03-10 21:16:33] DEBUG: Relative threshold: N
+[2021-03-10 21:16:33] DEBUG: Max divergence threshold set to 0.01
+[2021-03-10 21:16:33] INFO: Extending reads
+[2021-03-10 21:16:33] DEBUG: Estimating overlap coverage
+[2021-03-10 21:25:33] INFO: Overlap-based coverage: 1144
+[2021-03-10 21:25:33] INFO: Median overlap divergence: 0
+[2021-03-10 21:25:33] DEBUG: Sequence divergence distribution: 
+
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |****                                                                                                
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0, Q50 = 0, Q75 = 0.00088
+
+[2021-03-10 21:39:55] DEBUG: Assembled disjointig 1
+	With 1489 reads
+	Start read: +m64090_201201_051426/52232843/ccs
+	At position: 1480
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 230
+	Avg overlap len: 12886
+	Min overlap len: 2032
+	Inner reads: 0
+	Length: 5324468
+[2021-03-10 21:39:57] DEBUG: Inner: 553532 covered: 557442 total: 3923624
+[2021-03-10 22:20:38] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-10 22:20:38] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados --resume -g 11000000000 --plasmids --meta
+[2021-03-10 22:20:38] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-10 22:20:38] root: INFO: Resuming previous run
+[2021-03-10 22:20:38] root: INFO: >>>STAGE: assembly
+[2021-03-10 22:20:38] root: INFO: Assembling disjointigs
+[2021-03-10 22:20:38] root: DEBUG: -----Begin assembly log------
+[2021-03-10 22:20:38] root: DEBUG: Running: flye-modules assemble --reads C1E.hifi.fastq.gz --out-asm /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --meta --genome-size 11000000000 --min-ovlp 3000
+[2021-03-10 22:20:38] DEBUG: Build date: Sep  4 2020 20:48:13
+[2021-03-10 22:20:38] DEBUG: Total RAM: 188 Gb
+[2021-03-10 22:20:38] DEBUG: Available RAM: 174 Gb
+[2021-03-10 22:20:38] DEBUG: Total CPUs: 48
+[2021-03-10 22:20:38] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-10 22:20:38] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-10 22:20:38] DEBUG: 	big_genome_threshold=29000000
+[2021-03-10 22:20:38] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-10 22:20:38] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-10 22:20:38] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-10 22:20:38] DEBUG: 	chimera_window=100
+[2021-03-10 22:20:38] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-10 22:20:38] DEBUG: 	max_inner_reads=10
+[2021-03-10 22:20:38] DEBUG: 	max_inner_fraction=0.25
+[2021-03-10 22:20:38] DEBUG: 	max_separation=500
+[2021-03-10 22:20:38] DEBUG: 	unique_edge_length=50000
+[2021-03-10 22:20:38] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-10 22:20:38] DEBUG: 	out_paths_ratio=5
+[2021-03-10 22:20:38] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-10 22:20:38] DEBUG: 	coverage_estimate_window=100
+[2021-03-10 22:20:38] DEBUG: 	max_bubble_length=50000
+[2021-03-10 22:20:38] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-10 22:20:38] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-10 22:20:38] DEBUG: 	weak_detach_rate=5
+[2021-03-10 22:20:38] DEBUG: 	tip_coverage_rate=2
+[2021-03-10 22:20:38] DEBUG: 	tip_length_rate=2
+[2021-03-10 22:20:38] DEBUG: 	low_cutoff_warning=0
+[2021-03-10 22:20:38] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-10 22:20:38] DEBUG: 	kmer_size=17
+[2021-03-10 22:20:38] DEBUG: 	use_minimizers=1
+[2021-03-10 22:20:38] DEBUG: 	minimizer_window=10
+[2021-03-10 22:20:38] DEBUG: 	reads_base_alignment=1
+[2021-03-10 22:20:38] DEBUG: 	assemble_kmer_sample=2
+[2021-03-10 22:20:38] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-10 22:20:38] DEBUG: 	read_align_kmer_sample=2
+[2021-03-10 22:20:38] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-10 22:20:38] DEBUG: 	maximum_jump=1500
+[2021-03-10 22:20:38] DEBUG: 	maximum_overhang=500
+[2021-03-10 22:20:38] DEBUG: 	repeat_kmer_rate=100
+[2021-03-10 22:20:38] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-10 22:20:38] DEBUG: 	assemble_divergence_relative=0
+[2021-03-10 22:20:38] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-10 22:20:38] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-10 22:20:38] DEBUG: 	hpc_scoring_on=1
+[2021-03-10 22:20:38] DEBUG: 	add_unassembled_reads=0
+[2021-03-10 22:20:38] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-10 22:20:38] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-10 22:20:38] DEBUG: 	short_tip_length=10000
+[2021-03-10 22:20:38] DEBUG: 	long_tip_length=100000
+[2021-03-10 22:20:38] DEBUG: Running with k-mer size: 17
+[2021-03-10 22:20:38] DEBUG: Running with minimum overlap 3000
+[2021-03-10 22:20:38] DEBUG: Metagenome mode: Y
+[2021-03-10 22:20:38] INFO: Reading sequences
+[2021-03-10 22:23:34] DEBUG: Building positional index
+[2021-03-10 22:23:35] DEBUG: Total sequence: 12336498922 bp
+[2021-03-10 22:23:35] INFO: Building minimizer index
+[2021-03-10 22:23:35] INFO: Pre-calculating index storage
+[2021-03-10 22:41:18] DEBUG: Mean k-mer frequency: 83.337
+[2021-03-10 22:41:18] DEBUG: Repetitive k-mer frequency: 8333
+[2021-03-10 22:41:18] DEBUG: Filtered 4113681 repetitive k-mers (0.00183766)
+[2021-03-10 22:41:23] INFO: Filling index
+[2021-03-10 22:49:13] DEBUG: Assembled disjointig 2
+	With 2578 reads
+	Start read: +m64090_201201_051426/70977332/ccs
+	At position: 2573
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Short ext: 0
+	Mean extensions: 720
+	Avg overlap len: 11770
+	Min overlap len: 3339
+	Inner reads: 0
+	Length: 7016752
+[2021-03-10 22:49:14] ERROR: Caught unhandled exception: std::bad_alloc
+[2021-03-10 22:49:14] ERROR: 	flye-modules(+0x2b8ac) [0x558cb92e28ac]
+[2021-03-10 22:49:14] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xacf69) [0x7f7b76447f69]
+[2021-03-10 22:49:14] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xacfab) [0x7f7b76447fab]
+[2021-03-10 22:49:14] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f7b76448194]
+[2021-03-10 22:49:14] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(_Znwm+0x52) [0x7f7b7644856a]
+[2021-03-10 22:49:14] ERROR: 	flye-modules(+0x21401) [0x558cb92d8401]
+[2021-03-10 22:49:14] ERROR: 	flye-modules(+0x1f768) [0x558cb92d6768]
+[2021-03-10 22:49:14] ERROR: 	flye-modules(+0x1fef5) [0x558cb92d6ef5]
+[2021-03-10 22:49:14] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xc9067) [0x7f7b76464067]
+[2021-03-10 22:49:14] ERROR: 	/lib64/libpthread.so.0(+0x7e25) [0x7f7b75df4e25]
+[2021-03-10 22:49:15] root: ERROR: Command '['flye-modules', 'assemble', '--reads', 'C1E.hifi.fastq.gz', '--out-asm', '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta', '--config', '/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg', '--log', '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log', '--threads', '1', '--meta', '--genome-size', '11000000000', '--min-ovlp', '3000']' died with <Signals.SIGABRT: 6>.
+[2021-03-10 22:49:15] root: ERROR: Pipeline aborted
+[2021-03-10 23:05:33] DEBUG: Sorting k-mer index
+[2021-03-10 23:06:09] DEBUG: Selected k-mers: 26861090
+[2021-03-10 23:06:09] DEBUG: K-mer index size: 2234427488
+[2021-03-10 23:06:09] DEBUG: Mean k-mer frequency: 83.1845
+[2021-03-10 23:06:09] DEBUG: Minimizer rate: 5.5211
+[2021-03-10 23:06:09] DEBUG: Peak RAM usage: 15 Gb
+[2021-03-10 23:06:09] DEBUG: Estimating k-mer identity bias
+[2021-03-10 23:14:46] DEBUG: Initial divergence estimate : 0.000175716
+[2021-03-10 23:14:46] DEBUG: Relative threshold: N
+[2021-03-10 23:14:46] DEBUG: Max divergence threshold set to 0.01
+[2021-03-10 23:14:46] INFO: Extending reads
+[2021-03-10 23:14:46] DEBUG: Estimating overlap coverage
+[2021-03-10 23:23:30] INFO: Overlap-based coverage: 1144
+[2021-03-10 23:23:30] INFO: Median overlap divergence: 0
+[2021-03-10 23:23:30] DEBUG: Sequence divergence distribution: 
+
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |****                                                                                                
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0, Q50 = 0, Q75 = 0.00088
+
+[2021-03-10 23:37:31] DEBUG: Assembled disjointig 1
+	With 1489 reads
+	Start read: +m64090_201201_051426/52232843/ccs
+	At position: 1480
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 230
+	Avg overlap len: 12886
+	Min overlap len: 2032
+	Inner reads: 0
+	Length: 5324468
+[2021-03-10 23:37:32] DEBUG: Inner: 553532 covered: 557442 total: 3923624
+[2021-03-11 00:44:47] DEBUG: Assembled disjointig 2
+	With 2578 reads
+	Start read: +m64090_201201_051426/70977332/ccs
+	At position: 2573
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Short ext: 0
+	Mean extensions: 720
+	Avg overlap len: 11770
+	Min overlap len: 3339
+	Inner reads: 0
+	Length: 7016752
+[2021-03-11 00:44:48] ERROR: Caught unhandled exception: std::bad_alloc
+[2021-03-11 00:44:48] ERROR: 	flye-modules(+0x2b8ac) [0x556f145918ac]
+[2021-03-11 00:44:48] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xacf69) [0x7f63f2af1f69]
+[2021-03-11 00:44:48] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xacfab) [0x7f63f2af1fab]
+[2021-03-11 00:44:48] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(__cxa_rethrow+0) [0x7f63f2af2194]
+[2021-03-11 00:44:48] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(_Znwm+0x52) [0x7f63f2af256a]
+[2021-03-11 00:44:48] ERROR: 	flye-modules(+0x21401) [0x556f14587401]
+[2021-03-11 00:44:48] ERROR: 	flye-modules(+0x1f768) [0x556f14585768]
+[2021-03-11 00:44:48] ERROR: 	flye-modules(+0x1fef5) [0x556f14585ef5]
+[2021-03-11 00:44:48] ERROR: 	/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/../lib/libstdc++.so.6(+0xc9067) [0x7f63f2b0e067]
+[2021-03-11 00:44:48] ERROR: 	/lib64/libpthread.so.0(+0x7e25) [0x7f63f249ee25]
+[2021-03-11 00:44:48] root: ERROR: Command '['flye-modules', 'assemble', '--reads', 'C1E.hifi.fastq.gz', '--out-asm', '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta', '--config', '/hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg', '--log', '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log', '--threads', '1', '--meta', '--genome-size', '11000000000', '--min-ovlp', '3000']' died with <Signals.SIGABRT: 6>.
+[2021-03-11 00:44:48] root: ERROR: Pipeline aborted
+[2021-03-11 14:58:42] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-11 14:58:42] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados --resume -g 11000000000 --plasmids --meta
+[2021-03-11 14:58:42] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-11 14:58:42] root: INFO: Resuming previous run
+[2021-03-11 14:58:42] root: INFO: >>>STAGE: assembly
+[2021-03-11 14:58:42] root: INFO: Assembling disjointigs
+[2021-03-11 14:58:42] root: DEBUG: -----Begin assembly log------
+[2021-03-11 14:58:42] root: DEBUG: Running: flye-modules assemble --reads C1E.hifi.fastq.gz --out-asm /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --meta --genome-size 11000000000 --min-ovlp 3000
+[2021-03-11 14:58:42] DEBUG: Build date: Sep  4 2020 20:48:13
+[2021-03-11 14:58:42] DEBUG: Total RAM: 188 Gb
+[2021-03-11 14:58:42] DEBUG: Available RAM: 172 Gb
+[2021-03-11 14:58:42] DEBUG: Total CPUs: 48
+[2021-03-11 14:58:42] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-11 14:58:42] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-11 14:58:42] DEBUG: 	big_genome_threshold=29000000
+[2021-03-11 14:58:42] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-11 14:58:42] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-11 14:58:42] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-11 14:58:42] DEBUG: 	chimera_window=100
+[2021-03-11 14:58:42] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-11 14:58:42] DEBUG: 	max_inner_reads=10
+[2021-03-11 14:58:42] DEBUG: 	max_inner_fraction=0.25
+[2021-03-11 14:58:42] DEBUG: 	max_separation=500
+[2021-03-11 14:58:42] DEBUG: 	unique_edge_length=50000
+[2021-03-11 14:58:42] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-11 14:58:42] DEBUG: 	out_paths_ratio=5
+[2021-03-11 14:58:42] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-11 14:58:42] DEBUG: 	coverage_estimate_window=100
+[2021-03-11 14:58:42] DEBUG: 	max_bubble_length=50000
+[2021-03-11 14:58:42] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-11 14:58:42] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-11 14:58:42] DEBUG: 	weak_detach_rate=5
+[2021-03-11 14:58:42] DEBUG: 	tip_coverage_rate=2
+[2021-03-11 14:58:42] DEBUG: 	tip_length_rate=2
+[2021-03-11 14:58:42] DEBUG: 	low_cutoff_warning=0
+[2021-03-11 14:58:42] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-11 14:58:42] DEBUG: 	kmer_size=17
+[2021-03-11 14:58:42] DEBUG: 	use_minimizers=1
+[2021-03-11 14:58:42] DEBUG: 	minimizer_window=10
+[2021-03-11 14:58:42] DEBUG: 	reads_base_alignment=1
+[2021-03-11 14:58:42] DEBUG: 	assemble_kmer_sample=2
+[2021-03-11 14:58:42] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-11 14:58:42] DEBUG: 	read_align_kmer_sample=2
+[2021-03-11 14:58:42] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-11 14:58:42] DEBUG: 	maximum_jump=1500
+[2021-03-11 14:58:42] DEBUG: 	maximum_overhang=500
+[2021-03-11 14:58:42] DEBUG: 	repeat_kmer_rate=100
+[2021-03-11 14:58:42] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-11 14:58:42] DEBUG: 	assemble_divergence_relative=0
+[2021-03-11 14:58:42] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-11 14:58:42] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-11 14:58:42] DEBUG: 	hpc_scoring_on=1
+[2021-03-11 14:58:42] DEBUG: 	add_unassembled_reads=0
+[2021-03-11 14:58:42] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-11 14:58:42] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-11 14:58:42] DEBUG: 	short_tip_length=10000
+[2021-03-11 14:58:42] DEBUG: 	long_tip_length=100000
+[2021-03-11 14:58:42] DEBUG: Running with k-mer size: 17
+[2021-03-11 14:58:42] DEBUG: Running with minimum overlap 3000
+[2021-03-11 14:58:42] DEBUG: Metagenome mode: Y
+[2021-03-11 14:58:42] INFO: Reading sequences
+[2021-03-11 15:02:17] DEBUG: Building positional index
+[2021-03-11 15:02:17] DEBUG: Total sequence: 12336498922 bp
+[2021-03-11 15:02:17] INFO: Building minimizer index
+[2021-03-11 15:02:17] INFO: Pre-calculating index storage
+[2021-03-11 15:19:04] DEBUG: Mean k-mer frequency: 83.337
+[2021-03-11 15:19:04] DEBUG: Repetitive k-mer frequency: 8333
+[2021-03-11 15:19:04] DEBUG: Filtered 4113681 repetitive k-mers (0.00183766)
+[2021-03-11 15:19:10] INFO: Filling index
+[2021-03-11 15:44:36] DEBUG: Sorting k-mer index
+[2021-03-11 15:45:16] DEBUG: Selected k-mers: 26861090
+[2021-03-11 15:45:16] DEBUG: K-mer index size: 2234427488
+[2021-03-11 15:45:16] DEBUG: Mean k-mer frequency: 83.1845
+[2021-03-11 15:45:16] DEBUG: Minimizer rate: 5.5211
+[2021-03-11 15:45:16] DEBUG: Peak RAM usage: 15 Gb
+[2021-03-11 15:45:16] DEBUG: Estimating k-mer identity bias
+[2021-03-11 15:53:13] DEBUG: Initial divergence estimate : 0.000175716
+[2021-03-11 15:53:13] DEBUG: Relative threshold: N
+[2021-03-11 15:53:13] DEBUG: Max divergence threshold set to 0.01
+[2021-03-11 15:53:13] INFO: Extending reads
+[2021-03-11 15:53:13] DEBUG: Estimating overlap coverage
+[2021-03-11 16:01:48] INFO: Overlap-based coverage: 1144
+[2021-03-11 16:01:48] INFO: Median overlap divergence: 0
+[2021-03-11 16:01:48] DEBUG: Sequence divergence distribution: 
+
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |****                                                                                                
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0, Q50 = 0, Q75 = 0.00088
+
+[2021-03-11 16:15:14] DEBUG: Assembled disjointig 1
+	With 1489 reads
+	Start read: +m64090_201201_051426/52232843/ccs
+	At position: 1480
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 230
+	Avg overlap len: 12886
+	Min overlap len: 2032
+	Inner reads: 0
+	Length: 5324468
+[2021-03-11 16:15:15] DEBUG: Inner: 553532 covered: 557442 total: 3923624
+[2021-03-11 17:17:11] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-11 17:17:11] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados --resume -g 11000000000 --plasmids --meta
+[2021-03-11 17:17:11] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-11 17:17:11] root: INFO: Resuming previous run
+[2021-03-11 17:17:11] root: INFO: >>>STAGE: assembly
+[2021-03-11 17:17:11] root: INFO: Assembling disjointigs
+[2021-03-11 17:17:11] root: DEBUG: -----Begin assembly log------
+[2021-03-11 17:17:11] root: DEBUG: Running: flye-modules assemble --reads C1E.hifi.fastq.gz --out-asm /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/00-assembly/draft_assembly.fasta --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --meta --genome-size 11000000000 --min-ovlp 3000
+[2021-03-11 17:17:11] DEBUG: Build date: Sep  4 2020 20:48:13
+[2021-03-11 17:17:11] DEBUG: Total RAM: 188 Gb
+[2021-03-11 17:17:11] DEBUG: Available RAM: 88 Gb
+[2021-03-11 17:17:11] DEBUG: Total CPUs: 48
+[2021-03-11 17:17:11] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-11 17:17:11] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-11 17:17:11] DEBUG: 	big_genome_threshold=29000000
+[2021-03-11 17:17:11] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-11 17:17:11] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-11 17:17:11] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-11 17:17:11] DEBUG: 	chimera_window=100
+[2021-03-11 17:17:11] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-11 17:17:11] DEBUG: 	max_inner_reads=10
+[2021-03-11 17:17:11] DEBUG: 	max_inner_fraction=0.25
+[2021-03-11 17:17:11] DEBUG: 	max_separation=500
+[2021-03-11 17:17:11] DEBUG: 	unique_edge_length=50000
+[2021-03-11 17:17:11] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-11 17:17:11] DEBUG: 	out_paths_ratio=5
+[2021-03-11 17:17:11] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-11 17:17:11] DEBUG: 	coverage_estimate_window=100
+[2021-03-11 17:17:11] DEBUG: 	max_bubble_length=50000
+[2021-03-11 17:17:11] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-11 17:17:11] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-11 17:17:11] DEBUG: 	weak_detach_rate=5
+[2021-03-11 17:17:11] DEBUG: 	tip_coverage_rate=2
+[2021-03-11 17:17:11] DEBUG: 	tip_length_rate=2
+[2021-03-11 17:17:11] DEBUG: 	low_cutoff_warning=0
+[2021-03-11 17:17:11] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-11 17:17:11] DEBUG: 	kmer_size=17
+[2021-03-11 17:17:11] DEBUG: 	use_minimizers=1
+[2021-03-11 17:17:11] DEBUG: 	minimizer_window=10
+[2021-03-11 17:17:11] DEBUG: 	reads_base_alignment=1
+[2021-03-11 17:17:11] DEBUG: 	assemble_kmer_sample=2
+[2021-03-11 17:17:11] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-11 17:17:11] DEBUG: 	read_align_kmer_sample=2
+[2021-03-11 17:17:11] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-11 17:17:11] DEBUG: 	maximum_jump=1500
+[2021-03-11 17:17:11] DEBUG: 	maximum_overhang=500
+[2021-03-11 17:17:11] DEBUG: 	repeat_kmer_rate=100
+[2021-03-11 17:17:11] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-11 17:17:11] DEBUG: 	assemble_divergence_relative=0
+[2021-03-11 17:17:11] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-11 17:17:11] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-11 17:17:11] DEBUG: 	hpc_scoring_on=1
+[2021-03-11 17:17:11] DEBUG: 	add_unassembled_reads=0
+[2021-03-11 17:17:11] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-11 17:17:11] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-11 17:17:11] DEBUG: 	short_tip_length=10000
+[2021-03-11 17:17:11] DEBUG: 	long_tip_length=100000
+[2021-03-11 17:17:11] DEBUG: Running with k-mer size: 17
+[2021-03-11 17:17:11] DEBUG: Running with minimum overlap 3000
+[2021-03-11 17:17:11] DEBUG: Metagenome mode: Y
+[2021-03-11 17:17:11] INFO: Reading sequences
+[2021-03-11 17:20:21] DEBUG: Building positional index
+[2021-03-11 17:20:22] DEBUG: Total sequence: 12336498922 bp
+[2021-03-11 17:20:22] INFO: Building minimizer index
+[2021-03-11 17:20:22] INFO: Pre-calculating index storage
+[2021-03-11 17:25:38] DEBUG: Assembled disjointig 2
+	With 2578 reads
+	Start read: +m64090_201201_051426/70977332/ccs
+	At position: 2573
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Short ext: 0
+	Mean extensions: 720
+	Avg overlap len: 11770
+	Min overlap len: 3339
+	Inner reads: 0
+	Length: 7016752
+[2021-03-11 17:25:46] DEBUG: Inner: 3364488 covered: 3382022 total: 3923624
+[2021-03-11 17:30:16] DEBUG: Assembled disjointig 3
+	With 496 reads
+	Start read: +m64090_201201_051426/13109801/ccs
+	At position: 488
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 211
+	Avg overlap len: 12097
+	Min overlap len: 2387
+	Inner reads: 0
+	Length: 1622409
+[2021-03-11 17:30:16] DEBUG: Inner: 3527130 covered: 3545966 total: 3923624
+[2021-03-11 17:37:06] DEBUG: Assembled disjointig 4
+	With 763 reads
+	Start read: +m64090_201201_051426/174000275/ccs
+	At position: 759
+	leftTip: 0 rightTip: 0
+	Suspicious: 2
+	Short ext: 1
+	Mean extensions: 205
+	Avg overlap len: 12127
+	Min overlap len: 1966
+	Inner reads: 0
+	Length: 2553903
+[2021-03-11 17:37:07] DEBUG: Inner: 3781822 covered: 3801110 total: 3923624
+[2021-03-11 17:39:52] DEBUG: Assembled disjointig 5
+	With 297 reads
+	Start read: +m64090_201201_051426/156894254/ccs
+	At position: 292
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 216
+	Avg overlap len: 12153
+	Min overlap len: 1682
+	Inner reads: 0
+	Length: 1033051
+[2021-03-11 17:39:53] DEBUG: Inner: 3885738 covered: 3905422 total: 3923624
+[2021-03-11 17:40:06] DEBUG: Mean k-mer frequency: 83.337
+[2021-03-11 17:40:06] DEBUG: Repetitive k-mer frequency: 8333
+[2021-03-11 17:40:06] DEBUG: Filtered 4113681 repetitive k-mers (0.00183766)
+[2021-03-11 17:40:11] INFO: Filling index
+[2021-03-11 18:07:46] DEBUG: Sorting k-mer index
+[2021-03-11 18:08:21] DEBUG: Selected k-mers: 26861090
+[2021-03-11 18:08:21] DEBUG: K-mer index size: 2234427488
+[2021-03-11 18:08:21] DEBUG: Mean k-mer frequency: 83.1845
+[2021-03-11 18:08:21] DEBUG: Minimizer rate: 5.5211
+[2021-03-11 18:08:21] DEBUG: Peak RAM usage: 15 Gb
+[2021-03-11 18:08:21] DEBUG: Estimating k-mer identity bias
+[2021-03-11 18:17:37] DEBUG: Initial divergence estimate : 0.000175716
+[2021-03-11 18:17:37] DEBUG: Relative threshold: N
+[2021-03-11 18:17:37] DEBUG: Max divergence threshold set to 0.01
+[2021-03-11 18:17:37] INFO: Extending reads
+[2021-03-11 18:17:37] DEBUG: Estimating overlap coverage
+[2021-03-11 18:26:59] INFO: Overlap-based coverage: 1144
+[2021-03-11 18:26:59] INFO: Median overlap divergence: 0
+[2021-03-11 18:26:59] DEBUG: Sequence divergence distribution: 
+
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |****                                                                                                
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0, Q50 = 0, Q75 = 0.00088
+
+[2021-03-11 18:40:01] DEBUG: Assembled disjointig 1
+	With 1489 reads
+	Start read: +m64090_201201_051426/52232843/ccs
+	At position: 1480
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 230
+	Avg overlap len: 12886
+	Min overlap len: 2032
+	Inner reads: 0
+	Length: 5324468
+[2021-03-11 18:40:03] DEBUG: Inner: 553532 covered: 557442 total: 3923624
+[2021-03-11 18:50:15] INFO: Assembled 5 disjointigs
+[2021-03-11 18:50:15] INFO: Generating sequence
+[2021-03-11 18:50:27] DEBUG: Writing FASTA
+[2021-03-11 18:50:27] DEBUG: Peak RAM usage: 18 Gb
+-----------End assembly log------------
+[2021-03-11 18:50:31] root: DEBUG: Disjointigs length: 17550550, N50: 5324464
+[2021-03-11 18:50:31] root: INFO: >>>STAGE: consensus
+[2021-03-11 18:50:31] root: INFO: Running Minimap2
+[2021-03-11 19:07:03] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-11 19:07:03] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados --resume -g 11000000000 --plasmids --meta
+[2021-03-11 19:07:03] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-11 19:07:03] root: INFO: Resuming previous run
+[2021-03-11 19:07:03] root: INFO: >>>STAGE: consensus
+[2021-03-11 19:07:03] root: INFO: Running Minimap2
+[2021-03-11 19:35:19] root: INFO: Starting Flye 2.8.1-b1676
+[2021-03-11 19:35:19] root: DEBUG: Cmd: /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/bin/flye --pacbio-hifi C1E.hifi.fastq.gz --out-dir resultados --resume -g 11000000000 --plasmids --meta
+[2021-03-11 19:35:19] root: DEBUG: Python version: 3.8.5 | packaged by conda-forge | (default, Sep 16 2020, 18:01:20) 
+[GCC 7.5.0]
+[2021-03-11 19:35:19] root: INFO: Resuming previous run
+[2021-03-11 19:35:19] root: INFO: >>>STAGE: consensus
+[2021-03-11 19:35:20] root: INFO: Running Minimap2
+[2021-03-11 19:50:55] DEBUG: Assembled disjointig 2
+	With 2578 reads
+	Start read: +m64090_201201_051426/70977332/ccs
+	At position: 2573
+	leftTip: 0 rightTip: 0
+	Suspicious: 0
+	Short ext: 0
+	Mean extensions: 720
+	Avg overlap len: 11770
+	Min overlap len: 3339
+	Inner reads: 0
+	Length: 7016752
+[2021-03-11 19:51:04] DEBUG: Inner: 3364488 covered: 3382022 total: 3923624
+[2021-03-11 19:54:54] DEBUG: Assembled disjointig 3
+	With 496 reads
+	Start read: +m64090_201201_051426/13109801/ccs
+	At position: 488
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 211
+	Avg overlap len: 12097
+	Min overlap len: 2387
+	Inner reads: 0
+	Length: 1622409
+[2021-03-11 19:54:54] DEBUG: Inner: 3527130 covered: 3545966 total: 3923624
+[2021-03-11 20:01:03] DEBUG: Assembled disjointig 4
+	With 763 reads
+	Start read: +m64090_201201_051426/174000275/ccs
+	At position: 759
+	leftTip: 0 rightTip: 0
+	Suspicious: 2
+	Short ext: 1
+	Mean extensions: 205
+	Avg overlap len: 12127
+	Min overlap len: 1966
+	Inner reads: 0
+	Length: 2553903
+[2021-03-11 20:01:04] DEBUG: Inner: 3781822 covered: 3801110 total: 3923624
+[2021-03-11 20:03:33] DEBUG: Assembled disjointig 5
+	With 297 reads
+	Start read: +m64090_201201_051426/156894254/ccs
+	At position: 292
+	leftTip: 0 rightTip: 0
+	Suspicious: 1
+	Short ext: 1
+	Mean extensions: 216
+	Avg overlap len: 12153
+	Min overlap len: 1682
+	Inner reads: 0
+	Length: 1033051
+[2021-03-11 20:03:33] DEBUG: Inner: 3885738 covered: 3905422 total: 3923624
+[2021-03-11 20:08:30] root: INFO: Computing consensus
+[2021-03-11 20:29:37] root: ERROR: Error running minimap2, terminating. See the alignment error log  for details: /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/10-consensus/minimap.stderr
+[2021-03-11 20:29:37] root: ERROR: [Errno 2] No such file or directory: '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/10-consensus/minimap.stderr'
+[2021-03-11 20:29:37] root: ERROR: Pipeline aborted
+[2021-03-11 20:47:18] root: ERROR: Error running minimap2, terminating. See the alignment error log  for details: /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/10-consensus/minimap.stderr
+[2021-03-11 20:47:18] root: ERROR: [Errno 2] No such file or directory: '/hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/10-consensus/minimap.stderr'
+[2021-03-11 20:47:18] root: ERROR: Pipeline aborted
+[2021-03-11 21:20:24] INFO: Assembled 5 disjointigs
+[2021-03-11 21:20:24] INFO: Generating sequence
+[2021-03-11 21:20:37] DEBUG: Writing FASTA
+[2021-03-11 21:20:37] DEBUG: Peak RAM usage: 18 Gb
+-----------End assembly log------------
+[2021-03-11 21:20:41] root: DEBUG: Disjointigs length: 17550550, N50: 5324464
+[2021-03-11 21:20:41] root: INFO: >>>STAGE: consensus
+[2021-03-11 21:20:42] root: INFO: Running Minimap2
+[2021-03-11 22:44:52] root: INFO: Computing consensus
+[2021-03-11 22:54:08] root: INFO: Alignment error rate: 0.003493
+[2021-03-11 22:54:09] root: INFO: >>>STAGE: repeat
+[2021-03-11 22:54:09] root: INFO: Building and resolving repeat graph
+[2021-03-11 22:54:09] root: DEBUG: -----Begin repeat analyser log------
+[2021-03-11 22:54:09] root: DEBUG: Running: flye-modules repeat --disjointigs /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/10-consensus/consensus.fasta --reads C1E.hifi.fastq.gz --out-dir /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/20-repeat --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --meta --min-ovlp 3000
+[2021-03-11 22:54:09] DEBUG: Build date: Sep  4 2020 20:48:53
+[2021-03-11 22:54:09] DEBUG: Total RAM: 188 Gb
+[2021-03-11 22:54:09] DEBUG: Available RAM: 152 Gb
+[2021-03-11 22:54:09] DEBUG: Total CPUs: 48
+[2021-03-11 22:54:09] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-11 22:54:09] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-11 22:54:09] DEBUG: 	big_genome_threshold=29000000
+[2021-03-11 22:54:09] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-11 22:54:09] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-11 22:54:09] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-11 22:54:09] DEBUG: 	chimera_window=100
+[2021-03-11 22:54:09] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-11 22:54:09] DEBUG: 	max_inner_reads=10
+[2021-03-11 22:54:09] DEBUG: 	max_inner_fraction=0.25
+[2021-03-11 22:54:09] DEBUG: 	max_separation=500
+[2021-03-11 22:54:09] DEBUG: 	unique_edge_length=50000
+[2021-03-11 22:54:09] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-11 22:54:09] DEBUG: 	out_paths_ratio=5
+[2021-03-11 22:54:09] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-11 22:54:09] DEBUG: 	coverage_estimate_window=100
+[2021-03-11 22:54:09] DEBUG: 	max_bubble_length=50000
+[2021-03-11 22:54:09] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-11 22:54:09] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-11 22:54:09] DEBUG: 	weak_detach_rate=5
+[2021-03-11 22:54:09] DEBUG: 	tip_coverage_rate=2
+[2021-03-11 22:54:09] DEBUG: 	tip_length_rate=2
+[2021-03-11 22:54:09] DEBUG: 	low_cutoff_warning=0
+[2021-03-11 22:54:09] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-11 22:54:09] DEBUG: 	kmer_size=17
+[2021-03-11 22:54:09] DEBUG: 	use_minimizers=1
+[2021-03-11 22:54:09] DEBUG: 	minimizer_window=10
+[2021-03-11 22:54:09] DEBUG: 	reads_base_alignment=1
+[2021-03-11 22:54:09] DEBUG: 	assemble_kmer_sample=2
+[2021-03-11 22:54:09] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-11 22:54:09] DEBUG: 	read_align_kmer_sample=2
+[2021-03-11 22:54:09] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-11 22:54:09] DEBUG: 	maximum_jump=1500
+[2021-03-11 22:54:09] DEBUG: 	maximum_overhang=500
+[2021-03-11 22:54:09] DEBUG: 	repeat_kmer_rate=100
+[2021-03-11 22:54:09] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-11 22:54:09] DEBUG: 	assemble_divergence_relative=0
+[2021-03-11 22:54:09] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-11 22:54:09] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-11 22:54:09] DEBUG: 	hpc_scoring_on=1
+[2021-03-11 22:54:09] DEBUG: 	add_unassembled_reads=0
+[2021-03-11 22:54:09] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-11 22:54:09] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-11 22:54:09] DEBUG: 	short_tip_length=10000
+[2021-03-11 22:54:09] DEBUG: 	long_tip_length=100000
+[2021-03-11 22:54:09] DEBUG: Running with k-mer size: 17
+[2021-03-11 22:54:09] DEBUG: Selected minimum overlap 3000
+[2021-03-11 22:54:09] DEBUG: Metagenome mode: Y
+[2021-03-11 22:54:09] INFO: Parsing disjointigs
+[2021-03-11 22:54:09] DEBUG: Building positional index
+[2021-03-11 22:54:09] DEBUG: Total sequence: 17538059 bp
+[2021-03-11 22:54:09] INFO: Building repeat graph
+[2021-03-11 22:54:11] DEBUG: Mean k-mer frequency: 1.02935
+[2021-03-11 22:54:11] DEBUG: Repetitive k-mer frequency: 102
+[2021-03-11 22:54:11] DEBUG: Filtered 1070 repetitive k-mers (0.000335656)
+[2021-03-11 22:54:13] DEBUG: Sorting k-mer index
+[2021-03-11 22:54:13] DEBUG: Selected k-mers: 3096900
+[2021-03-11 22:54:13] DEBUG: K-mer index size: 3186716
+[2021-03-11 22:54:13] DEBUG: Mean k-mer frequency: 1.029
+[2021-03-11 22:54:13] DEBUG: Minimizer rate: 5.50349
+[2021-03-11 22:54:21] DEBUG: Computing transitive closure for overlaps
+[2021-03-11 22:54:21] DEBUG: Found 530 overlaps
+[2021-03-11 22:54:21] DEBUG: Left 228 overlaps after filtering
+[2021-03-11 22:54:21] INFO: Median overlap divergence: 0.0513436
+[2021-03-11 22:54:21] DEBUG: Sequence divergence distribution: 
+
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                                                                 
+    |* |                                                    *                                            
+    |* |          *                                         *                                            
+    |**|  *    *  *            *                        *   *   **  *                                    
+    |**|* *  **** *            *              *  *      *   * ***** *                                    
+    |**|* *  **** *            *              *  *      *   * ***** *                                    
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0.00047, Q50 = 0.051, Q75 = 0.28
+
+[2021-03-11 22:54:21] DEBUG: Computing gluepoints
+[2021-03-11 22:54:21] DEBUG: Added 0 gluepoint projections
+[2021-03-11 22:54:21] DEBUG: Created 140 gluepoints
+[2021-03-11 22:54:21] DEBUG: Artificial loops removed: 7 left, 7 right, 0 both
+[2021-03-11 22:54:21] DEBUG: Initializing edges
+[2021-03-11 22:54:21] DEBUG: Edges length checksum: 13188089139
+[2021-03-11 22:54:21] DEBUG: Filtered 0 singleton segments
+[2021-03-11 22:54:21] DEBUG: Removed 0 simple and 0 double chimeric junctions
+[2021-03-11 22:54:21] DEBUG: Collapsed 7 edges
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	17842	21580	3738	
+[2021-03-11 22:54:21] DEBUG:  	11	+disjointig_1	21580	23733	2153	
+[2021-03-11 22:54:21] DEBUG: *	-35	+disjointig_1	23733	87471	63738	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	87471	91020	3549	
+[2021-03-11 22:54:21] DEBUG: *	-5	+disjointig_1	91020	96435	5415	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	96435	100558	4123	
+[2021-03-11 22:54:21] DEBUG: *	10	+disjointig_1	100558	629558	529000	
+[2021-03-11 22:54:21] DEBUG:  	-2	+disjointig_1	629558	632758	3200	
+[2021-03-11 22:54:21] DEBUG: *	6	+disjointig_1	632758	1742564	1109806	
+[2021-03-11 22:54:21] DEBUG:  	-11	+disjointig_1	1742564	1744717	2153	
+[2021-03-11 22:54:21] DEBUG:  	-2	+disjointig_1	1744717	1747926	3209	
+[2021-03-11 22:54:21] DEBUG: *	3	+disjointig_1	1747926	4104342	2356416	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	4104342	4107921	3579	
+[2021-03-11 22:54:21] DEBUG: *	-4	+disjointig_1	4107921	5028250	920329	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	5028250	5031419	3169	
+[2021-03-11 22:54:21] DEBUG:  	11	+disjointig_1	5031419	5033550	2131	
+[2021-03-11 22:54:21] DEBUG: *	-7	+disjointig_1	5033550	5106175	72625	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	5106175	5109849	3674	
+[2021-03-11 22:54:21] DEBUG: *	34	+disjointig_1	5109849	5286471	176622	
+[2021-03-11 22:54:21] DEBUG:  	2	+disjointig_1	5286471	5290209	3738	
+[2021-03-11 22:54:21] DEBUG:  	11	+disjointig_1	5290209	5292362	2153	
+[2021-03-11 22:54:21] DEBUG: *	37	+disjointig_2	26174	458026	431852	
+[2021-03-11 22:54:21] DEBUG:  	16	+disjointig_2	458026	463796	5770	
+[2021-03-11 22:54:21] DEBUG: *	21	+disjointig_2	463796	4453643	3989847	
+[2021-03-11 22:54:21] DEBUG:  	-16	+disjointig_2	4453643	4459431	5788	
+[2021-03-11 22:54:21] DEBUG: *	17	+disjointig_2	4459431	5188856	729425	
+[2021-03-11 22:54:21] DEBUG:  	-16	+disjointig_2	5188856	5194637	5781	
+[2021-03-11 22:54:21] DEBUG: *	19	+disjointig_2	5194637	5951798	757161	
+[2021-03-11 22:54:21] DEBUG: *	-38	+disjointig_2	5951798	6000902	49104	
+[2021-03-11 22:54:21] DEBUG:  	16	+disjointig_2	6000902	6006672	5770	
+[2021-03-11 22:54:21] DEBUG: *	-18	+disjointig_2	6006672	6362444	355772	
+[2021-03-11 22:54:21] DEBUG:  	16	+disjointig_2	6362444	6368232	5788	
+[2021-03-11 22:54:21] DEBUG: *	36	+disjointig_2	6368232	7010935	642703	
+[2021-03-11 22:54:21] DEBUG: *	41	+disjointig_3	35529	1045661	1010132	
+[2021-03-11 22:54:21] DEBUG:  	28	+disjointig_3	1045661	1052125	6464	
+[2021-03-11 22:54:21] DEBUG: *	31	+disjointig_3	1052125	1439176	387051	
+[2021-03-11 22:54:21] DEBUG:  	-28	+disjointig_3	1439176	1445576	6400	
+[2021-03-11 22:54:21] DEBUG: *	40	+disjointig_3	1445576	1621053	175477	
+[2021-03-11 22:54:21] DEBUG: *	39	+disjointig_4	5355	1085494	1080139	
+[2021-03-11 22:54:21] DEBUG:  	28	+disjointig_4	1085494	1091939	6445	
+[2021-03-11 22:54:21] DEBUG: *	-29	+disjointig_4	1091939	1310812	218873	
+[2021-03-11 22:54:21] DEBUG:  	28	+disjointig_4	1310812	1317222	6410	
+[2021-03-11 22:54:21] DEBUG: *	-23	+disjointig_4	1317222	2532299	1215077	
+[2021-03-11 22:54:21] DEBUG: *	42	+disjointig_5	39231	1032304	993073	
+[2021-03-11 22:54:21] DEBUG: Total edges: 42
+[2021-03-11 22:54:21] INFO: Parsing reads
+[2021-03-11 22:57:22] DEBUG: Building positional index
+[2021-03-11 22:57:23] DEBUG: Total sequence: 12527765908 bp
+[2021-03-11 22:57:23] DEBUG: Building positional index
+[2021-03-11 22:57:23] DEBUG: Total sequence: 17364822 bp
+[2021-03-11 22:57:23] INFO: Aligning reads to the graph
+[2021-03-11 22:57:25] DEBUG: Mean k-mer frequency: 1.01919
+[2021-03-11 22:57:25] DEBUG: Repetitive k-mer frequency: 101
+[2021-03-11 22:57:25] DEBUG: Filtered 1066 repetitive k-mers (0.00033774)
+[2021-03-11 22:57:27] DEBUG: Sorting k-mer index
+[2021-03-11 22:57:27] DEBUG: Selected k-mers: 3096828
+[2021-03-11 22:57:27] DEBUG: K-mer index size: 3155204
+[2021-03-11 22:57:27] DEBUG: Mean k-mer frequency: 1.01885
+[2021-03-11 22:57:27] DEBUG: Minimizer rate: 5.50355
+[2021-03-12 00:36:22] DEBUG: Total reads : 1961812
+[2021-03-12 00:36:22] DEBUG: Read with aligned parts : 1958653
+[2021-03-12 00:36:22] DEBUG: Aligned in one piece : 1955538
+[2021-03-12 00:36:22] INFO: Aligned read sequence: 12288197003 / 12336498922 (0.996085)
+[2021-03-12 00:36:22] INFO: Median overlap divergence: 0
+[2021-03-12 00:36:22] DEBUG: Sequence divergence distribution: 
+
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*     |                                                                                             
+    |*********** ** *    **                                                                              
+    ----------------------------------------------------------------------------------------------------
+    0%        5%        10%       15%       20%       25%       30%       35%       40%       45%       
+
+    Q25 = 0, Q50 = 0, Q75 = 0
+
+[2021-03-12 00:36:22] INFO: Mean edge coverage: 699
+[2021-03-12 00:36:22] DEBUG: 2	len:3553	cov:2800	mult:4.00572
+[2021-03-12 00:36:22] DEBUG: -2	len:3553	cov:2800	mult:4.00572
+[2021-03-12 00:36:22] DEBUG: 3	len:2356416	cov:344	mult:0.492132
+[2021-03-12 00:36:22] DEBUG: -3	len:2356416	cov:344	mult:0.492132
+[2021-03-12 00:36:22] DEBUG: 4	len:920329	cov:370	mult:0.529328
+[2021-03-12 00:36:22] DEBUG: -4	len:920329	cov:370	mult:0.529328
+[2021-03-12 00:36:22] DEBUG: 5	len:5415	cov:354	mult:0.506438
+[2021-03-12 00:36:22] DEBUG: -5	len:5415	cov:354	mult:0.506438
+[2021-03-12 00:36:22] DEBUG: 6	len:1109806	cov:366	mult:0.523605
+[2021-03-12 00:36:22] DEBUG: -6	len:1109806	cov:366	mult:0.523605
+[2021-03-12 00:36:22] DEBUG: 7	len:72625	cov:405	mult:0.579399
+[2021-03-12 00:36:22] DEBUG: -7	len:72625	cov:405	mult:0.579399
+[2021-03-12 00:36:22] DEBUG: 10	len:529000	cov:378	mult:0.540773
+[2021-03-12 00:36:22] DEBUG: -10	len:529000	cov:378	mult:0.540773
+[2021-03-12 00:36:22] DEBUG: 11	len:2147	cov:1074	mult:1.53648
+[2021-03-12 00:36:22] DEBUG: -11	len:2147	cov:1074	mult:1.53648
+[2021-03-12 00:36:22] DEBUG: 16	len:5779	cov:5312	mult:7.59943
+[2021-03-12 00:36:22] DEBUG: -16	len:5779	cov:5312	mult:7.59943
+[2021-03-12 00:36:22] DEBUG: 17	len:729425	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: -17	len:729425	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: 18	len:355772	cov:1242	mult:1.77682
+[2021-03-12 00:36:22] DEBUG: -18	len:355772	cov:1242	mult:1.77682
+[2021-03-12 00:36:22] DEBUG: 19	len:757161	cov:1212	mult:1.73391
+[2021-03-12 00:36:22] DEBUG: -19	len:757161	cov:1212	mult:1.73391
+[2021-03-12 00:36:22] DEBUG: 21	len:3989847	cov:1209	mult:1.72961
+[2021-03-12 00:36:22] DEBUG: -21	len:3989847	cov:1209	mult:1.72961
+[2021-03-12 00:36:22] DEBUG: 23	len:1215077	cov:331	mult:0.473534
+[2021-03-12 00:36:22] DEBUG: -23	len:1215077	cov:331	mult:0.473534
+[2021-03-12 00:36:22] DEBUG: 28	len:6429	cov:1249	mult:1.78684
+[2021-03-12 00:36:22] DEBUG: -28	len:6429	cov:1249	mult:1.78684
+[2021-03-12 00:36:22] DEBUG: 29	len:218873	cov:323	mult:0.462089
+[2021-03-12 00:36:22] DEBUG: -29	len:218873	cov:323	mult:0.462089
+[2021-03-12 00:36:22] DEBUG: 31	len:387051	cov:339	mult:0.484979
+[2021-03-12 00:36:22] DEBUG: -31	len:387051	cov:339	mult:0.484979
+[2021-03-12 00:36:22] DEBUG: 34	len:176622	cov:398	mult:0.569385
+[2021-03-12 00:36:22] DEBUG: -34	len:176622	cov:398	mult:0.569385
+[2021-03-12 00:36:22] DEBUG: 35	len:63738	cov:416	mult:0.595136
+[2021-03-12 00:36:22] DEBUG: -35	len:63738	cov:416	mult:0.595136
+[2021-03-12 00:36:22] DEBUG: 36	len:642703	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: -36	len:642703	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: 37	len:431852	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: -37	len:431852	cov:1224	mult:1.75107
+[2021-03-12 00:36:22] DEBUG: 38	len:49104	cov:1257	mult:1.79828
+[2021-03-12 00:36:22] DEBUG: -38	len:49104	cov:1257	mult:1.79828
+[2021-03-12 00:36:22] DEBUG: 39	len:1080139	cov:327	mult:0.467811
+[2021-03-12 00:36:22] DEBUG: -39	len:1080139	cov:327	mult:0.467811
+[2021-03-12 00:36:22] DEBUG: 40	len:175477	cov:328	mult:0.469242
+[2021-03-12 00:36:22] DEBUG: -40	len:175477	cov:328	mult:0.469242
+[2021-03-12 00:36:22] DEBUG: 41	len:1010132	cov:335	mult:0.479256
+[2021-03-12 00:36:22] DEBUG: -41	len:1010132	cov:335	mult:0.479256
+[2021-03-12 00:36:22] DEBUG: 42	len:993073	cov:346	mult:0.494993
+[2021-03-12 00:36:22] DEBUG: -42	len:993073	cov:346	mult:0.494993
+[2021-03-12 00:36:22] DEBUG: Unique coverage threshold 708
+[2021-03-12 00:36:22] INFO: Simplifying the graph
+[2021-03-12 00:36:22] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:22] DEBUG: [SIMPL] Removed 0 paths with low coverage
+[2021-03-12 00:36:24] DEBUG: Finding repeats
+[2021-03-12 00:36:24] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:24] DEBUG: Repeat detection iteration 1
+[2021-03-12 00:36:24] DEBUG: Starting 11 aln:1290 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      -6	num:270	flank:6538	span:19
+[2021-03-12 00:36:24] DEBUG: 	      -7	num:305	flank:6292	span:9
+[2021-03-12 00:36:24] DEBUG: 	      -35	num:342	flank:7719	span:19
+[2021-03-12 00:36:24] DEBUG: Mult: 11	2147	1074	 (0,1)
+[2021-03-12 00:36:24] DEBUG: Starting 2 aln:3862 minSpan:66
+[2021-03-12 00:36:24] DEBUG: 	      -35	num:212	flank:5780	span:2159
+[2021-03-12 00:36:24] DEBUG: 	      -10	num:386	flank:7199	span:-41
+[2021-03-12 00:36:24] DEBUG: 	      -7	num:198	flank:6226	span:2141
+[2021-03-12 00:36:24] DEBUG: 	      -6	num:170	flank:5651	span:2160
+[2021-03-12 00:36:24] DEBUG: 	      -4	num:227	flank:6777	span:19
+[2021-03-12 00:36:24] DEBUG: 	      10	num:244	flank:7198	span:6
+[2021-03-12 00:36:24] DEBUG: 	      -5	num:318	flank:6624	span:-34
+[2021-03-12 00:36:24] DEBUG: 	      34	num:318	flank:7008	span:10
+[2021-03-12 00:36:24] DEBUG: Starting -2 aln:3862 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      -3	num:284	flank:9132	span:6
+[2021-03-12 00:36:24] DEBUG: 	      6	num:338	flank:7465	span:-1
+[2021-03-12 00:36:24] DEBUG: 	      3	num:282	flank:8376	span:2
+[2021-03-12 00:36:24] DEBUG: 	      7	num:295	flank:5840	span:2
+[2021-03-12 00:36:24] DEBUG: 	      -34	num:304	flank:6338	span:5
+[2021-03-12 00:36:24] DEBUG: 	      5	num:303	flank:8445	span:0
+[2021-03-12 00:36:24] DEBUG: 	      35	num:290	flank:7355	span:2
+[2021-03-12 00:36:24] DEBUG: 	      4	num:248	flank:7608	span:1
+[2021-03-12 00:36:24] DEBUG: Mult: 2	3553	2800	 (1,1)
+[2021-03-12 00:36:24] DEBUG: Starting -5 aln:579 minSpan:4081
+[2021-03-12 00:36:24] DEBUG: 	      -10	num:41	flank:1751	span:4057
+[2021-03-12 00:36:24] DEBUG: 	      10	num:63	flank:4575	span:4118
+[2021-03-12 00:36:24] DEBUG: Mult: 5	5415	354	 (1,0)
+[2021-03-12 00:36:24] DEBUG: Starting 16 aln:8767 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      21	num:969	flank:6778	span:10
+[2021-03-12 00:36:24] DEBUG: 	      -21	num:969	flank:7390	span:18
+[2021-03-12 00:36:24] DEBUG: 	      36	num:932	flank:6731	span:8
+[2021-03-12 00:36:24] DEBUG: 	      -18	num:944	flank:6575	span:20
+[2021-03-12 00:36:24] DEBUG: 	      -17	num:897	flank:7252	span:0
+[2021-03-12 00:36:24] DEBUG: Starting -16 aln:8767 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      18	num:949	flank:6262	span:2
+[2021-03-12 00:36:24] DEBUG: 	      -37	num:879	flank:7269	span:-6
+[2021-03-12 00:36:24] DEBUG: 	      19	num:862	flank:7074	span:5
+[2021-03-12 00:36:24] DEBUG: 	      38	num:947	flank:8215	span:1
+[2021-03-12 00:36:24] DEBUG: 	      17	num:953	flank:10294	span:1
+[2021-03-12 00:36:24] DEBUG: Mult: 16	5779	5312	 (1,1)
+[2021-03-12 00:36:24] DEBUG: Starting 28 aln:2085 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      -29	num:296	flank:8831	span:13
+[2021-03-12 00:36:24] DEBUG: 	      -23	num:291	flank:7301	span:8
+[2021-03-12 00:36:24] DEBUG: 	      31	num:260	flank:7854	span:1
+[2021-03-12 00:36:24] DEBUG: 	      -31	num:278	flank:9673	span:13
+[2021-03-12 00:36:24] DEBUG: Starting -28 aln:2085 minSpan:0
+[2021-03-12 00:36:24] DEBUG: 	      29	num:276	flank:6441	span:-45
+[2021-03-12 00:36:24] DEBUG: 	      -41	num:251	flank:6317	span:10
+[2021-03-12 00:36:24] DEBUG: 	      40	num:253	flank:7483	span:3
+[2021-03-12 00:36:24] DEBUG: 	      -39	num:306	flank:7558	span:13
+[2021-03-12 00:36:24] DEBUG: Mult: 28	6429	1249	 (1,1)
+[2021-03-12 00:36:24] DEBUG: Repeat detection iteration 2
+[2021-03-12 00:36:24] DEBUG: Writing Dot
+[2021-03-12 00:36:24] DEBUG: Writing FASTA
+[2021-03-12 00:36:24] DEBUG: 	Connection -19	-17	91
+[2021-03-12 00:36:24] DEBUG: 	Connection -17	-21	120
+[2021-03-12 00:36:24] DEBUG: 	Connection -38	-18	111
+[2021-03-12 00:36:24] DEBUG: 	Connection -29	-23	35
+[2021-03-12 00:36:24] DEBUG: 	Connection -40	-31	30
+[2021-03-12 00:36:24] DEBUG: 	Connection 41	31	28
+[2021-03-12 00:36:24] DEBUG: 	Connection 39	-29	33
+[2021-03-12 00:36:25] DEBUG: [SIMPL] Resolved 7 simple repeats
+[2021-03-12 00:36:26] DEBUG: [SIMPL] == Iteration 1 ==
+[2021-03-12 00:36:26] DEBUG: Splitting nodes
+[2021-03-12 00:36:28] DEBUG: [SIMPL] Split 0 nodes
+[2021-03-12 00:36:29] DEBUG: [SIMPL] Disconnected 0 minor paths
+[2021-03-12 00:36:30] DEBUG: [SIMPL] Clipped 0 short and 0 long tips
+[2021-03-12 00:36:31] DEBUG: [SIMPL] Masked 0 heterozygous loops
+[2021-03-12 00:36:31] DEBUG: [SIMPL] Masked 0 simple bubbles
+[2021-03-12 00:36:31] DEBUG: [SIMPL] Masked 0 complex haplotypes
+[2021-03-12 00:36:31] DEBUG: [SIMPL] Masked 0 superbubbles
+[2021-03-12 00:36:31] DEBUG: Finding repeats
+[2021-03-12 00:36:31] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:31] DEBUG: Repeat detection iteration 1
+[2021-03-12 00:36:31] DEBUG: Starting 11 aln:1290 minSpan:0
+[2021-03-12 00:36:31] DEBUG: 	      -6	num:270	flank:6538	span:19
+[2021-03-12 00:36:31] DEBUG: 	      -7	num:305	flank:6292	span:9
+[2021-03-12 00:36:31] DEBUG: 	      -35	num:342	flank:7719	span:19
+[2021-03-12 00:36:31] DEBUG: Mult: 11	2147	1074	 (0,1)
+[2021-03-12 00:36:31] DEBUG: Starting 2 aln:3862 minSpan:66
+[2021-03-12 00:36:31] DEBUG: 	      -35	num:212	flank:5780	span:2159
+[2021-03-12 00:36:31] DEBUG: 	      -10	num:386	flank:7199	span:-41
+[2021-03-12 00:36:31] DEBUG: 	      -7	num:198	flank:6226	span:2141
+[2021-03-12 00:36:31] DEBUG: 	      -6	num:170	flank:5651	span:2160
+[2021-03-12 00:36:31] DEBUG: 	      -4	num:227	flank:6777	span:19
+[2021-03-12 00:36:31] DEBUG: 	      10	num:244	flank:7198	span:6
+[2021-03-12 00:36:31] DEBUG: 	      -5	num:318	flank:6624	span:-34
+[2021-03-12 00:36:31] DEBUG: 	      34	num:318	flank:7008	span:10
+[2021-03-12 00:36:31] DEBUG: Starting -2 aln:3862 minSpan:0
+[2021-03-12 00:36:31] DEBUG: 	      -3	num:284	flank:9132	span:6
+[2021-03-12 00:36:31] DEBUG: 	      6	num:338	flank:7465	span:-1
+[2021-03-12 00:36:31] DEBUG: 	      3	num:282	flank:8376	span:2
+[2021-03-12 00:36:31] DEBUG: 	      7	num:295	flank:5840	span:2
+[2021-03-12 00:36:31] DEBUG: 	      -34	num:304	flank:6338	span:5
+[2021-03-12 00:36:31] DEBUG: 	      5	num:303	flank:8445	span:0
+[2021-03-12 00:36:31] DEBUG: 	      35	num:290	flank:7355	span:2
+[2021-03-12 00:36:31] DEBUG: 	      4	num:248	flank:7608	span:1
+[2021-03-12 00:36:31] DEBUG: Mult: 2	3553	2800	 (1,1)
+[2021-03-12 00:36:31] DEBUG: Starting -5 aln:579 minSpan:4081
+[2021-03-12 00:36:31] DEBUG: 	      -10	num:41	flank:1751	span:4057
+[2021-03-12 00:36:31] DEBUG: 	      10	num:63	flank:4575	span:4118
+[2021-03-12 00:36:31] DEBUG: Mult: 5	5415	354	 (1,0)
+[2021-03-12 00:36:31] DEBUG: Starting 16 aln:3517 minSpan:0
+[2021-03-12 00:36:31] DEBUG: 	      21	num:969	flank:6778	span:10
+[2021-03-12 00:36:31] DEBUG: 	      36	num:932	flank:6731	span:8
+[2021-03-12 00:36:31] DEBUG: Starting -16 aln:3517 minSpan:0
+[2021-03-12 00:36:31] DEBUG: 	      -37	num:879	flank:7269	span:-6
+[2021-03-12 00:36:31] DEBUG: 	      18	num:949	flank:6262	span:2
+[2021-03-12 00:36:31] DEBUG: Mult: 16	5779	5312	 (1,1)
+[2021-03-12 00:36:31] DEBUG: Repeat detection iteration 2
+[2021-03-12 00:36:31] DEBUG: Total unique edges: 29
+[2021-03-12 00:36:32] DEBUG: 	Connection -10	35	1	1
+[2021-03-12 00:36:32] DEBUG: 	Connection -21	-37	92	0.994595
+[2021-03-12 00:36:32] DEBUG: 	Connection 4	-3	55	1
+[2021-03-12 00:36:32] DEBUG: 	Connection 35	-34	52	1
+[2021-03-12 00:36:32] DEBUG: 	Connection 6	3	49	0.989899
+[2021-03-12 00:36:32] DEBUG: 	Connection -6	-10	142	0.996491
+[2021-03-12 00:36:32] DEBUG: 	Connection -7	34	103	1
+[2021-03-12 00:36:32] DEBUG: 	Connection 19	-38	1058	0.999528
+[2021-03-12 00:36:32] DEBUG: 	Connection -23	39	271	0.998158
+[2021-03-12 00:36:32] DEBUG: 	Connection -36	18	119	0.995816
+[2021-03-12 00:36:32] DEBUG: 	Connection -4	-7	48	1
+[2021-03-12 00:36:32] DEBUG: [SIMPL] Resolved repeats: 11
+[2021-03-12 00:36:32] DEBUG: RR links: 3986
+[2021-03-12 00:36:32] DEBUG: Unresolved: 0
+[2021-03-12 00:36:33] DEBUG: Removed 0 simple and 0 double chimeric junctions
+[2021-03-12 00:36:35] DEBUG: [SIMPL] == Iteration 2 ==
+[2021-03-12 00:36:35] DEBUG: Splitting nodes
+[2021-03-12 00:36:36] DEBUG: [SIMPL] Split 0 nodes
+[2021-03-12 00:36:38] DEBUG: [SIMPL] Disconnected 0 minor paths
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Clipped 0 short and 0 long tips
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Masked 0 heterozygous loops
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Masked 0 simple bubbles
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Masked 0 complex haplotypes
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Masked 0 superbubbles
+[2021-03-12 00:36:39] DEBUG: Finding repeats
+[2021-03-12 00:36:39] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:39] DEBUG: Repeat detection iteration 1
+[2021-03-12 00:36:39] DEBUG: Repeat detection iteration 2
+[2021-03-12 00:36:39] DEBUG: Total unique edges: 39
+[2021-03-12 00:36:39] DEBUG: [SIMPL] Resolved repeats: 0
+[2021-03-12 00:36:39] DEBUG: RR links: 0
+[2021-03-12 00:36:39] DEBUG: Unresolved: 0
+[2021-03-12 00:36:41] DEBUG: Removed 0 simple and 0 double chimeric junctions
+[2021-03-12 00:36:44] DEBUG: [SIMPL] Simplified 0 forks
+[2021-03-12 00:36:45] DEBUG: [SIMPL] Collapsed 0 haplotypes
+[2021-03-12 00:36:45] DEBUG: [SIMPL] Resolved 0 simple repeats
+[2021-03-12 00:36:47] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:47] DEBUG: [SIMPL] Removed 0 paths with low coverage
+[2021-03-12 00:36:48] DEBUG: Finding repeats
+[2021-03-12 00:36:48] DEBUG: Read coverage cutoff: 3
+[2021-03-12 00:36:48] DEBUG: Repeat detection iteration 1
+[2021-03-12 00:36:48] DEBUG: Repeat detection iteration 2
+[2021-03-12 00:36:48] DEBUG: Writing Dot
+[2021-03-12 00:37:01] DEBUG: Writing FASTA
+[2021-03-12 00:37:02] DEBUG: Peak RAM usage: 4 Gb
+-----------End assembly log------------
+[2021-03-12 00:37:05] root: INFO: >>>STAGE: plasmids
+[2021-03-12 00:37:05] root: INFO: Recovering short unassembled sequences
+[2021-03-12 00:37:05] root: DEBUG: Extracting unmapped reads
+[2021-03-12 01:03:56] root: DEBUG: Unmapped sequence: 184519 / 12527765908 (0.000015)
+[2021-03-12 01:03:56] root: DEBUG: Finding self-mappings for unmapped reads
+[2021-03-12 01:03:56] root: DEBUG: Extracting circular reads
+[2021-03-12 01:03:56] root: DEBUG: Extracted 9 circular reads
+[2021-03-12 01:03:56] root: DEBUG: Extracing circular pairs
+[2021-03-12 01:03:56] root: DEBUG: Extracted 0 circular pairs
+[2021-03-12 01:03:56] root: DEBUG: Clustering circular sequences
+[2021-03-12 01:03:57] root: INFO: Added 0 extra contigs
+[2021-03-12 01:03:58] root: INFO: >>>STAGE: contigger
+[2021-03-12 01:03:58] root: INFO: Generating contigs
+[2021-03-12 01:03:58] root: DEBUG: -----Begin contigger analyser log------
+[2021-03-12 01:03:58] root: DEBUG: Running: flye-modules contigger --graph-edges /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/22-plasmids/repeat_graph_edges.fasta --reads C1E.hifi.fastq.gz --out-dir /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/30-contigger --config /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg --repeat-graph /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/22-plasmids/repeat_graph_dump --graph-aln /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/20-repeat/read_alignment_dump --log /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/flye.log --threads 1 --min-ovlp 3000
+[2021-03-12 01:03:58] DEBUG: Build date: Sep  4 2020 20:49:30
+[2021-03-12 01:03:58] DEBUG: Total RAM: 188 Gb
+[2021-03-12 01:03:58] DEBUG: Available RAM: 160 Gb
+[2021-03-12 01:03:58] DEBUG: Total CPUs: 48
+[2021-03-12 01:03:58] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_hifi.cfg
+[2021-03-12 01:03:58] DEBUG: Loading /hpcfs/apps/anaconda/3.7/envs/flye-2.8.1/lib/python3.8/site-packages/flye/config/bin_cfg/asm_defaults.cfg
+[2021-03-12 01:03:58] DEBUG: 	big_genome_threshold=29000000
+[2021-03-12 01:03:58] DEBUG: 	meta_read_filter_kmer_freq=100
+[2021-03-12 01:03:58] DEBUG: 	max_coverage_drop_rate=5
+[2021-03-12 01:03:58] DEBUG: 	max_extensions_drop_rate=5
+[2021-03-12 01:03:58] DEBUG: 	chimera_window=100
+[2021-03-12 01:03:58] DEBUG: 	min_reads_in_disjointig=4
+[2021-03-12 01:03:58] DEBUG: 	max_inner_reads=10
+[2021-03-12 01:03:58] DEBUG: 	max_inner_fraction=0.25
+[2021-03-12 01:03:58] DEBUG: 	max_separation=500
+[2021-03-12 01:03:58] DEBUG: 	unique_edge_length=50000
+[2021-03-12 01:03:58] DEBUG: 	min_repeat_res_support=0.51
+[2021-03-12 01:03:58] DEBUG: 	out_paths_ratio=5
+[2021-03-12 01:03:58] DEBUG: 	graph_cov_drop_rate=5
+[2021-03-12 01:03:58] DEBUG: 	coverage_estimate_window=100
+[2021-03-12 01:03:58] DEBUG: 	max_bubble_length=50000
+[2021-03-12 01:03:58] DEBUG: 	loop_coverage_rate=1.5
+[2021-03-12 01:03:58] DEBUG: 	repeat_edge_cov_mult=1.75
+[2021-03-12 01:03:58] DEBUG: 	weak_detach_rate=5
+[2021-03-12 01:03:58] DEBUG: 	tip_coverage_rate=2
+[2021-03-12 01:03:58] DEBUG: 	tip_length_rate=2
+[2021-03-12 01:03:58] DEBUG: 	low_cutoff_warning=0
+[2021-03-12 01:03:58] DEBUG: 	hard_min_coverage_rate=50
+[2021-03-12 01:03:58] DEBUG: 	kmer_size=17
+[2021-03-12 01:03:58] DEBUG: 	use_minimizers=1
+[2021-03-12 01:03:58] DEBUG: 	minimizer_window=10
+[2021-03-12 01:03:58] DEBUG: 	reads_base_alignment=1
+[2021-03-12 01:03:58] DEBUG: 	assemble_kmer_sample=2
+[2021-03-12 01:03:58] DEBUG: 	repeat_graph_kmer_sample=2
+[2021-03-12 01:03:58] DEBUG: 	read_align_kmer_sample=2
+[2021-03-12 01:03:58] DEBUG: 	meta_read_top_kmer_rate=0.75
+[2021-03-12 01:03:58] DEBUG: 	maximum_jump=1500
+[2021-03-12 01:03:58] DEBUG: 	maximum_overhang=500
+[2021-03-12 01:03:58] DEBUG: 	repeat_kmer_rate=100
+[2021-03-12 01:03:58] DEBUG: 	assemble_ovlp_divergence=0.01
+[2021-03-12 01:03:58] DEBUG: 	assemble_divergence_relative=0
+[2021-03-12 01:03:58] DEBUG: 	repeat_graph_ovlp_divergence=0.01
+[2021-03-12 01:03:58] DEBUG: 	read_align_ovlp_divergence=0.03
+[2021-03-12 01:03:58] DEBUG: 	hpc_scoring_on=1
+[2021-03-12 01:03:58] DEBUG: 	add_unassembled_reads=0
+[2021-03-12 01:03:58] DEBUG: 	extend_contigs_with_repeats=0
+[2021-03-12 01:03:58] DEBUG: 	min_read_cov_cutoff=3
+[2021-03-12 01:03:58] DEBUG: 	short_tip_length=10000
+[2021-03-12 01:03:58] DEBUG: 	long_tip_length=100000
+[2021-03-12 01:03:58] DEBUG: Running with k-mer size: 17
+[2021-03-12 01:03:58] DEBUG: Selected minimum overlap 3000
+[2021-03-12 01:03:58] INFO: Reading sequences
+[2021-03-12 01:06:57] DEBUG: Building positional index
+[2021-03-12 01:06:58] DEBUG: Total sequence: 12527765908 bp
+[2021-03-12 01:07:16] DEBUG: Flipped 0
+[2021-03-12 01:07:16] DEBUG: UPath 1: -5 -> 2
+[2021-03-12 01:07:16] DEBUG: UPath 2: 52 -> -4 -> -60 -> -7 -> -56 -> 34 -> 53 -> -35 -> -50 -> 10 -> 55 -> 6 -> 54 -> 3
+[2021-03-12 01:07:16] DEBUG: UPath 3: -43 -> 19 -> -38 -> 45 -> -18 -> 59 -> 36 -> 37 -> -51 -> 21 -> -44 -> 17
+[2021-03-12 01:07:16] DEBUG: UPath 4: -46 -> 29 -> -49 -> -39 -> 23
+[2021-03-12 01:07:16] DEBUG: UPath 5: -47 -> 40 -> 41 -> 48 -> 31
+[2021-03-12 01:07:16] DEBUG: UPath 6: 42
+[2021-03-12 01:07:16] DEBUG: Final graph contiain 6 egdes
+[2021-03-12 01:07:16] DEBUG: Extending contigs into repeats
+[2021-03-12 01:07:16] DEBUG: Covered 0 repetitive contigs
+[2021-03-12 01:07:16] INFO: Generated 6 contigs
+[2021-03-12 01:07:16] DEBUG: Writing FASTA
+[2021-03-12 01:07:16] DEBUG: Generating scaffold connections
+[2021-03-12 01:07:16] INFO: Added 0 scaffold connections
+[2021-03-12 01:07:16] DEBUG: Writing Dot
+[2021-03-12 01:07:16] DEBUG: Writing FASTA
+[2021-03-12 01:07:17] DEBUG: Writing Gfa
+[2021-03-12 01:07:17] DEBUG: Peak RAM usage: 4 Gb
+-----------End assembly log------------
+[2021-03-12 01:07:20] root: INFO: >>>STAGE: polishing
+[2021-03-12 01:07:20] root: INFO: Polishing genome (1/1)
+[2021-03-12 01:07:21] root: INFO: Running minimap2
+[2021-03-12 01:51:54] root: INFO: Alignment error rate: 0.003493
+[2021-03-12 02:25:40] root: INFO: Separating alignment into bubbles
+[2021-03-12 06:30:44] root: DEBUG: Generated 1201372 bubbles
+[2021-03-12 06:30:44] root: DEBUG: Split 1 long bubbles
+[2021-03-12 06:30:44] root: DEBUG: Skipped 1 empty bubbles
+[2021-03-12 06:30:44] root: DEBUG: Skipped 0 bubbles with long branches
+[2021-03-12 06:30:44] root: INFO: Alignment error rate: 0.001263
+[2021-03-12 06:30:44] root: INFO: Correcting bubbles
+[2021-03-12 06:52:47] root: DEBUG: Mean contig coverage: 611, selected threshold: 3
+[2021-03-12 06:52:48] root: DEBUG: Filtered 0 contigs of total length 0
+[2021-03-12 06:52:48] root: DEBUG: Generating polished GFA
+[2021-03-12 06:53:01] root: DEBUG: 0 sequences remained unpolished
+[2021-03-12 06:53:01] root: INFO: >>>STAGE: finalize
+[2021-03-12 06:53:02] root: DEBUG: ---Output dir contents:----
+[2021-03-12 06:53:02] root: DEBUG: resultados/
+[2021-03-12 06:53:02] root: DEBUG:     75.0 K      flye.log
+[2021-03-12 06:53:02] root: DEBUG:     92.0 B      params.json
+[2021-03-12 06:53:02] root: DEBUG:     16.0 M      assembly_graph.gfa
+[2021-03-12 06:53:02] root: DEBUG:     790.0 B     assembly_graph.gv
+[2021-03-12 06:53:02] root: DEBUG:     16.0 M      assembly.fasta
+[2021-03-12 06:53:02] root: DEBUG:     22-plasmids/
+[2021-03-12 06:53:02] root: DEBUG:         296.0 B     minimap_1.bam
+[2021-03-12 06:53:02] root: DEBUG:         0.0 B       polished_1.fasta
+[2021-03-12 06:53:02] root: DEBUG:         0.0 B       chunks_1.fasta
+[2021-03-12 06:53:02] root: DEBUG:         26.0 B      contigs_stats.txt
+[2021-03-12 06:53:02] root: DEBUG:         0.0 B       bubbles_1.fasta
+[2021-03-12 06:53:02] root: DEBUG:         0.0 B       plasmids_raw.fasta
+[2021-03-12 06:53:02] root: DEBUG:         9.0 K       repeat_graph_dump
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      repeat_graph_edges.fasta
+[2021-03-12 06:53:02] root: DEBUG:     00-assembly/
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      draft_assembly.fasta
+[2021-03-12 06:53:02] root: DEBUG:     10-consensus/
+[2021-03-12 06:53:02] root: DEBUG:         17.0 M      consensus.fasta
+[2021-03-12 06:53:02] root: DEBUG:         2.0 G       minimap.bam.save.1
+[2021-03-12 06:53:02] root: DEBUG:         3.0 M       minimap.bam.save
+[2021-03-12 06:53:02] root: DEBUG:         689.0 B     chunks.fasta.fai
+[2021-03-12 06:53:02] root: DEBUG:     20-repeat/
+[2021-03-12 06:53:02] root: DEBUG:         4.0 K       graph_after_rr.gv
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      graph_before_rr.fasta
+[2021-03-12 06:53:02] root: DEBUG:         537.0 M     read_alignment_dump
+[2021-03-12 06:53:02] root: DEBUG:         9.0 K       repeat_graph_dump
+[2021-03-12 06:53:02] root: DEBUG:         3.0 K       graph_before_rr.gv
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      repeat_graph_edges.fasta
+[2021-03-12 06:53:02] root: DEBUG:     30-contigger/
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      contigs.fasta
+[2021-03-12 06:53:02] root: DEBUG:         291.0 B     contigs_stats.txt
+[2021-03-12 06:53:02] root: DEBUG:         790.0 B     graph_final.gv
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      graph_final.fasta
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      graph_final.gfa
+[2021-03-12 06:53:02] root: DEBUG:         0.0 B       scaffolds_links.txt
+[2021-03-12 06:53:02] root: DEBUG:     40-polishing/
+[2021-03-12 06:53:02] root: DEBUG:         147.0 B     filtered_stats.txt
+[2021-03-12 06:53:02] root: DEBUG:         177.0 B     filtered_contigs.fasta.fai
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      polished_edges.gfa
+[2021-03-12 06:53:02] root: DEBUG:         147.0 B     contigs_stats.txt
+[2021-03-12 06:53:02] root: DEBUG:         617.0 B     chunks_1.fasta.fai
+[2021-03-12 06:53:02] root: DEBUG:         16.0 M      filtered_contigs.fasta
+[2021-03-12 06:53:02] root: DEBUG: --------------------------
+[2021-03-12 06:53:02] root: INFO: Assembly statistics:
+
+	Total length:	17368053
+	Fragments:	6
+	Fragments N50:	5268622
+	Largest frg:	6984757
+	Scaffolds:	0
+	Mean coverage:	611
+
+[2021-03-12 06:53:02] root: INFO: Final assembly: /hpcfs/home/ciencias/biologia/cursos/bcom4102/patiño_leon_diaz/proyecto/datos/resultados/assembly.fasta
