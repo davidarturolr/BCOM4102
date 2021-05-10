@@ -1,0 +1,100 @@
+;sequenceBacillusProtein_new;sequenceBovisProtein_new;sequenceProteinasBK_new
+Number of genes;4231;4451;6270
+Number of genes in orthogroups;2624;3225;3319
+Number of unassigned genes;1607;1226;2951
+Percentage of genes in orthogroups;62.0;72.5;52.9
+Percentage of unassigned genes;38.0;27.5;47.1
+Number of orthogroups containing species;2201;2538;2571
+Percentage of orthogroups containing species;75.8;87.4;88.5
+Number of species-specific orthogroups;1;2;8
+Number of genes in species-specific orthogroups;2;5;44
+Percentage of genes in species-specific orthogroups;0.0;0.1;0.7
+;;;
+;;;
+Number of genes per-species in orthogroup;Number of orthogroups;Number of orthogroups;Number of orthogroups
+'0;704;367;334
+'1;1916;2176;2176
+'2;209;250;276
+'3;40;53;49
+'4;20;29;31
+'5;10;10;12
+'6;4;4;5
+'7;1;3;9
+'8;0;0;3
+'9;1;4;0
+'10;0;0;3
+nov-15;0;4;4
+16-20;0;3;1
+21-50;0;2;2
+51-100;0;0;0
+101-150;0;0;0
+151-200;0;0;0
+201-500;0;0;0
+501-1000;0;0;0
+'1001+;0;0;0
+;;;
+Number of genes per-species in orthogroup;Percentage of orthogroups;Percentage of orthogroups;Percentage of orthogroups
+'0;24.2;12.6;11.5
+'1;66.0;74.9;74.9
+'2;7.2;8.6;9.5
+'3;1.4;1.8;1.7
+'4;0.7;1.0;1.1
+'5;0.3;0.3;0.4
+'6;0.1;0.1;0.2
+'7;0.0;0.1;0.3
+'8;0.0;0.0;0.1
+'9;0.0;0.1;0.0
+'10;0.0;0.0;0.1
+nov-15;0.0;0.1;0.1
+16-20;0.0;0.1;0.0
+21-50;0.0;0.1;0.1
+51-100;0.0;0.0;0.0
+101-150;0.0;0.0;0.0
+151-200;0.0;0.0;0.0
+201-500;0.0;0.0;0.0
+501-1000;0.0;0.0;0.0
+'1001+;0.0;0.0;0.0
+;;;
+Number of genes per-species in orthogroup;Number of genes;Number of genes;Number of genes
+'0;0;0;0
+'1;1916;2176;2176
+'2;418;500;552
+'3;120;159;147
+'4;80;116;124
+'5;50;50;60
+'6;24;24;30
+'7;7;21;63
+'8;0;0;24
+'9;9;36;0
+'10;0;0;30
+nov-15;0;48;49
+16-20;0;52;16
+21-50;0;43;48
+51-100;0;0;0
+101-150;0;0;0
+151-200;0;0;0
+201-500;0;0;0
+501-1000;0;0;0
+'1001+;0;0;0
+;;;
+Number of genes per-species in orthogroup;Percentage of genes;Percentage of genes;Percentage of genes
+'0;0.0;0.0;0.0
+'1;45.3;48.9;34.7
+'2;9.9;11.2;8.8
+'3;2.8;3.6;2.3
+'4;1.9;2.6;2.0
+'5;1.2;1.1;1.0
+'6;0.6;0.5;0.5
+'7;0.2;0.5;1.0
+'8;0.0;0.0;0.4
+'9;0.2;0.8;0.0
+'10;0.0;0.0;0.5
+nov-15;0.0;1.1;0.8
+16-20;0.0;1.2;0.3
+21-50;0.0;1.0;0.8
+51-100;0.0;0.0;0.0
+101-150;0.0;0.0;0.0
+151-200;0.0;0.0;0.0
+201-500;0.0;0.0;0.0
+501-1000;0.0;0.0;0.0
+'1001+;0.0;0.0;0.0
